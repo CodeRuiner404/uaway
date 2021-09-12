@@ -1,0 +1,1 @@
+<?php do_action( 'sheeba_lite_header_sidebar'); ?>

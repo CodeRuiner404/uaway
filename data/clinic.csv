@@ -1,0 +1,10 @@
+ID,ClinicName,ClinicNumber,ClinicAddress,ClinicDetail,Monday,Tuesday,Wednesday,Thursday,Friday,Weekends
+1;Spot Check Skin Cancer Clinic;0390987474;Ground Level 200 Queen Street, Melbourne, VIC 3000;https://www.spotcheck.clinic/;8:30am–5:30pm;8:30am–5:30pm;8:30am–5:30pm;8:30am–1:00pm;8:30am–5:30pm;Closed
+2;Molewise Skin Cancer Clinic;0384889690;760 Stud Rd,Scoresby, VIC 3179;https://www.molewise.com.au/;8am–6:30pm;8am–5pm;8am–5pm;8am–5pm;8am–5pm;Closed
+3;Australian Skin Cancer Clinics - Carnegie;0385641600;1146 Dandenong Rd, Carnegie, VIC 3163;https://www.ausskinclinics.com.au/ascc/vic-carnegie/home/;9am–5:30pm;9am–6pm;9am–5:30pm;9am–5pm;9am–6pm;Closed
+4;Australian Skin Cancer Clinics - Blackburn;0398779501;Unit 1/20 Blackburn Rd, Blackburn, VIC 3130;https://www.ausskinclinics.com.au/ascc/vic-blackburn/home/;9am–4pm;9am–4pm;9am–3pm;9am–4pm;8:30am–4pm;Closed
+5;Eastern Skin Cancer Clinic;0397523268;5 Dawson St, Upper Ferntree Gully, VIC 3156;https://www.easternskincc.com.au/;8:45am–5pm;8:45am–5pm;8:45am–5pm;8:45am–5pm;8:45am–5pm;Closed
+6;Manningham Skin Cancer Clinic;0388401410;Level 4 street level, 200 High St, Templestowe Lower, VIC 3107;https://www.manninghamskincancer.com.au/;9am–5pm;9am–5pm;9am–5pm;9am–5pm;9am–5pm;Closed
+7;MoleSpot Skin Cancer Clinic;0388130699;108 Railway Ave, Ringwood East, VIC 3135;http://molespot.com.au/;8:30am–4:30pm;8:30am–4:30pm;8:30am–4:30pm;8:30am–4:30pm;8:30am–5pm;Closed
+8;MoleMap - ARARAT;1800665362;56 Barkly St, Ararat, VIC 3377;https://www.molemap.net.au/molemap-ararat-skin-check-mole-check;10am–6pm;Closed;8am–4pm;8:30am–5pm;8:30am–5pm;Closed
+9;MoleMap - FRANKSTON;1800665362;1A Ashleigh Ave, Frankston, VIC 3199;https://www.molemap.net.au/molemap-frankston-skin-check-mole-check;10am–6pm;Closed;8am–4pm;8:30am–5pm;8:30am–5pm;Closed
