@@ -111,9 +111,7 @@ In order to improve this situation, **Uaway** aims to let Victorians aged 20-30 
 
 
 
-## Contributors
-
- ## 
+## Contributorsi 
 
 - ### Ziyi Zhu
 
@@ -124,8 +122,7 @@ In order to improve this situation, **Uaway** aims to let Victorians aged 20-30 
 - ### Wenzhao Ma (Martin)
 
 - ### Qinyao Li (Summer)
-
-- 
+ 
 
 For more information about us ,please click
 
