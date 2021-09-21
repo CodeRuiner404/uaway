@@ -1,0 +1,980 @@
+0000.000 (0) Opened log file at time: Fri, 10 Sep 2021 06:15:36 +0000 on https://uaway.com.au
+0000.003 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.60 WP: 5.8 PHP: 7.4.22 (fpm-fcgi, Linux wordpress-1-vm 4.19.0-17-cloud-amd64 #1 SMP Debian 4.19.194-3 (2021-07-18) x86_64) MySQL: 10.3.31-MariaDB (max packet size=16777216) WPLANG: en_US Server: Apache/2.4.48 (Unix) OpenSSL/1.1.1d safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 16.9M | 2M) multisite: N openssl: OpenSSL 1.1.1d  10 Sep 2019 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.006 (0) Free space on disk containing Updraft's temporary directory: 31354.2 MB
+0000.010 (0) Tasks: Backup files: 1 (schedule: unset) Backup DB: 1 (schedule: unset)
+0000.014 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.018 (0) Set semaphore last lock (fd) time to 2021-09-10 06:15:36
+0000.020 (0) Semaphore lock (fd) complete
+0000.025 (0) Backup run: resumption=0, nonce=22b275019f96, file_nonce=22b275019f96 begun at=1631254536 (0s ago), job type=backup
+0000.029 (0) Scheduling a resumption (1) after 300 seconds (1631254836) in case this run gets aborted
+0000.032 (0) Checking if we have a zip executable available
+0000.034 (0) Testing: /usr/bin/zip
+0000.051 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.054 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.055 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.057 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.058 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.079 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.084 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.087 (0) Working binary zip found: /usr/bin/zip
+0000.092 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.093 (0) Creation of backups of directories: beginning
+0000.098 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0002.885 (0) Total entities for the zip file: 3711 directories, 16118 files (0 skipped as non-modified), 250.4 MB
+0002.890 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 2.0 seconds have passed since the last write (0 MB, 1 (1) files added so far); re-opening (prior size: 0 KB)
+0003.028 (0) backup_2021-09-10-0615_UAway_22b275019f96-plugins.zip.tmp: size is now: 0.90 MB
+0003.032 (0) Zip: backup_2021-09-10-0615_UAway_22b275019f96-plugins.zip.tmp: 100 files added (on-disk size: 874.3 KB)
+0003.035 (0) Zip: backup_2021-09-10-0615_UAway_22b275019f96-plugins.zip.tmp: 200 files added (on-disk size: 874.3 KB)
+0003.038 (0) Zip: backup_2021-09-10-0615_UAway_22b275019f96-plugins.zip.tmp: 300 files added (on-disk size: 874.3 KB)
+0003.040 (0) Zip: backup_2021-09-10-0615_UAway_22b275019f96-plugins.zip.tmp: 400 files added (on-disk size: 874.3 KB)
+0003.043 (0) Zip: backup_2021-09-10-0615_UAway_22b275019f96-plugins.zip.tmp: 500 files added (on-disk size: 874.3 KB)
+0003.046 (0) Zip: backup_2021-09-10-0615_UAway_22b275019f96-plugins.zip.tmp: 600 files added (on-disk size: 874.3 KB)
+0003.048 (0) Zip: backup_2021-09-10-0615_UAway_22b275019f96-plugins.zip.tmp: 700 files added (on-disk size: 874.3 KB)
+0003.051 (0) Zip: backup_2021-09-10-0615_UAway_22b275019f96-plugins.zip.tmp: 800 files added (on-disk size: 874.3 KB)
+0003.053 (0) Zip: backup_2021-09-10-0615_UAway_22b275019f96-plugins.zip.tmp: 900 files added (on-disk size: 874.3 KB)
+0003.055 (0) Zip: backup_2021-09-10-0615_UAway_22b275019f96-plugins.zip.tmp: 1000 files added (on-disk size: 874.3 KB)
+0003.057 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (22.8 MB, 16118 files batched, 1001 (1002) added so far); re-opening (prior size: 874.3 KB)
+0004.682 (0) backup_2021-09-10-0615_UAway_22b275019f96-plugins.zip.tmp: size is now: 10.10 MB
+0004.690 (0) Zip: backup_2021-09-10-0615_UAway_22b275019f96-plugins.zip.tmp: 1100 files added (on-disk size: 10291.5 KB)
+0004.694 (0) Zip: backup_2021-09-10-0615_UAway_22b275019f96-plugins.zip.tmp: 1200 files added (on-disk size: 10291.5 KB)
+0004.696 (0) Zip: backup_2021-09-10-0615_UAway_22b275019f96-plugins.zip.tmp: 1300 files added (on-disk size: 10291.5 KB)
+0004.699 (0) Zip: backup_2021-09-10-0615_UAway_22b275019f96-plugins.zip.tmp: 1400 files added (on-disk size: 10291.5 KB)
+0004.702 (0) Zip: backup_2021-09-10-0615_UAway_22b275019f96-plugins.zip.tmp: 1500 files added (on-disk size: 10291.5 KB)
+0004.705 (0) Zip: backup_2021-09-10-0615_UAway_22b275019f96-plugins.zip.tmp: 1600 files added (on-disk size: 10291.5 KB)
+0004.707 (0) Zip: backup_2021-09-10-0615_UAway_22b275019f96-plugins.zip.tmp: 1700 files added (on-disk size: 10291.5 KB)
+0004.710 (0) Zip: backup_2021-09-10-0615_UAway_22b275019f96-plugins.zip.tmp: 1800 files added (on-disk size: 10291.5 KB)
+0004.713 (0) Zip: backup_2021-09-10-0615_UAway_22b275019f96-plugins.zip.tmp: 1900 files added (on-disk size: 10291.5 KB)
+0004.715 (0) Zip: backup_2021-09-10-0615_UAway_22b275019f96-plugins.zip.tmp: 2000 files added (on-disk size: 10291.5 KB)
+0004.718 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (10.8 MB, 16118 files batched, 1001 (2003) added so far); re-opening (prior size: 10291.5 KB)
+0005.553 (0) backup_2021-09-10-0615_UAway_22b275019f96-plugins.zip.tmp: size is now: 13.40 MB
+0005.561 (0) Zip: backup_2021-09-10-0615_UAway_22b275019f96-plugins.zip.tmp: 2100 files added (on-disk size: 13725.8 KB)
+0005.563 (0) Zip: backup_2021-09-10-0615_UAway_22b275019f96-plugins.zip.tmp: 2200 files added (on-disk size: 13725.8 KB)
+0005.566 (0) Zip: backup_2021-09-10-0615_UAway_22b275019f96-plugins.zip.tmp: 2300 files added (on-disk size: 13725.8 KB)
+0005.570 (0) Zip: backup_2021-09-10-0615_UAway_22b275019f96-plugins.zip.tmp: 2400 files added (on-disk size: 13725.8 KB)
+0005.572 (0) Zip: backup_2021-09-10-0615_UAway_22b275019f96-plugins.zip.tmp: 2500 files added (on-disk size: 13725.8 KB)
+0005.575 (0) Zip: backup_2021-09-10-0615_UAway_22b275019f96-plugins.zip.tmp: 2600 files added (on-disk size: 13725.8 KB)
+0005.578 (0) Zip: backup_2021-09-10-0615_UAway_22b275019f96-plugins.zip.tmp: 2700 files added (on-disk size: 13725.8 KB)
+0005.580 (0) Zip: backup_2021-09-10-0615_UAway_22b275019f96-plugins.zip.tmp: 2800 files added (on-disk size: 13725.8 KB)
+0005.583 (0) Zip: backup_2021-09-10-0615_UAway_22b275019f96-plugins.zip.tmp: 2900 files added (on-disk size: 13725.8 KB)
+0005.586 (0) Zip: backup_2021-09-10-0615_UAway_22b275019f96-plugins.zip.tmp: 3000 files added (on-disk size: 13725.8 KB)
+0005.587 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (17.3 MB, 16118 files batched, 1001 (3004) added so far); re-opening (prior size: 13725.8 KB)
+0006.676 (0) Zip: backup_2021-09-10-0615_UAway_22b275019f96-plugins.zip.tmp: 3100 files added (on-disk size: 15876.4 KB)
+0006.680 (0) Zip: backup_2021-09-10-0615_UAway_22b275019f96-plugins.zip.tmp: 3200 files added (on-disk size: 15876.4 KB)
+0006.683 (0) Zip: backup_2021-09-10-0615_UAway_22b275019f96-plugins.zip.tmp: 3300 files added (on-disk size: 15876.4 KB)
+0006.687 (0) Zip: backup_2021-09-10-0615_UAway_22b275019f96-plugins.zip.tmp: 3400 files added (on-disk size: 15876.4 KB)
+0006.690 (0) Zip: backup_2021-09-10-0615_UAway_22b275019f96-plugins.zip.tmp: 3500 files added (on-disk size: 15876.4 KB)
+0006.694 (0) Zip: backup_2021-09-10-0615_UAway_22b275019f96-plugins.zip.tmp: 3600 files added (on-disk size: 15876.4 KB)
+0006.696 (0) Zip: backup_2021-09-10-0615_UAway_22b275019f96-plugins.zip.tmp: 3700 files added (on-disk size: 15876.4 KB)
+0006.699 (0) Zip: backup_2021-09-10-0615_UAway_22b275019f96-plugins.zip.tmp: 3800 files added (on-disk size: 15876.4 KB)
+0006.702 (0) Zip: backup_2021-09-10-0615_UAway_22b275019f96-plugins.zip.tmp: 3900 files added (on-disk size: 15876.4 KB)
+0006.705 (0) Zip: backup_2021-09-10-0615_UAway_22b275019f96-plugins.zip.tmp: 4000 files added (on-disk size: 15876.4 KB)
+0006.706 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (4.2 MB, 16118 files batched, 1001 (4005) added so far); re-opening (prior size: 15876.4 KB)
+0007.218 (0) Zip: backup_2021-09-10-0615_UAway_22b275019f96-plugins.zip.tmp: 4100 files added (on-disk size: 17286.1 KB)
+0007.221 (0) Zip: backup_2021-09-10-0615_UAway_22b275019f96-plugins.zip.tmp: 4200 files added (on-disk size: 17286.1 KB)
+0007.225 (0) Zip: backup_2021-09-10-0615_UAway_22b275019f96-plugins.zip.tmp: 4300 files added (on-disk size: 17286.1 KB)
+0007.228 (0) Zip: backup_2021-09-10-0615_UAway_22b275019f96-plugins.zip.tmp: 4400 files added (on-disk size: 17286.1 KB)
+0007.231 (0) Zip: backup_2021-09-10-0615_UAway_22b275019f96-plugins.zip.tmp: 4500 files added (on-disk size: 17286.1 KB)
+0007.235 (0) Zip: backup_2021-09-10-0615_UAway_22b275019f96-plugins.zip.tmp: 4600 files added (on-disk size: 17286.1 KB)
+0007.238 (0) Zip: backup_2021-09-10-0615_UAway_22b275019f96-plugins.zip.tmp: 4700 files added (on-disk size: 17286.1 KB)
+0007.241 (0) Zip: backup_2021-09-10-0615_UAway_22b275019f96-plugins.zip.tmp: 4800 files added (on-disk size: 17286.1 KB)
+0007.244 (0) Zip: backup_2021-09-10-0615_UAway_22b275019f96-plugins.zip.tmp: 4900 files added (on-disk size: 17286.1 KB)
+0007.247 (0) Zip: backup_2021-09-10-0615_UAway_22b275019f96-plugins.zip.tmp: 5000 files added (on-disk size: 17286.1 KB)
+0007.249 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (4.8 MB, 16118 files batched, 1001 (5006) added so far); re-opening (prior size: 17286.1 KB)
+0008.053 (0) Zip: backup_2021-09-10-0615_UAway_22b275019f96-plugins.zip.tmp: 5100 files added (on-disk size: 19042 KB)
+0008.056 (0) Zip: backup_2021-09-10-0615_UAway_22b275019f96-plugins.zip.tmp: 5200 files added (on-disk size: 19042 KB)
+0008.060 (0) Zip: backup_2021-09-10-0615_UAway_22b275019f96-plugins.zip.tmp: 5300 files added (on-disk size: 19042 KB)
+0008.063 (0) Zip: backup_2021-09-10-0615_UAway_22b275019f96-plugins.zip.tmp: 5400 files added (on-disk size: 19042 KB)
+0008.066 (0) Zip: backup_2021-09-10-0615_UAway_22b275019f96-plugins.zip.tmp: 5500 files added (on-disk size: 19042 KB)
+0008.069 (0) Zip: backup_2021-09-10-0615_UAway_22b275019f96-plugins.zip.tmp: 5600 files added (on-disk size: 19042 KB)
+0008.071 (0) Zip: backup_2021-09-10-0615_UAway_22b275019f96-plugins.zip.tmp: 5700 files added (on-disk size: 19042 KB)
+0008.074 (0) Zip: backup_2021-09-10-0615_UAway_22b275019f96-plugins.zip.tmp: 5800 files added (on-disk size: 19042 KB)
+0008.078 (0) Zip: backup_2021-09-10-0615_UAway_22b275019f96-plugins.zip.tmp: 5900 files added (on-disk size: 19042 KB)
+0008.079 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (25.2 MB, 16118 files batched, 926 (5932) added so far); re-opening (prior size: 19042 KB)
+0009.868 (0) backup_2021-09-10-0615_UAway_22b275019f96-plugins.zip.tmp: size is now: 27.00 MB
+0009.876 (0) A useful amount of data was added after this amount of zip processing: 2 s (normalised: 2 s, rate: 12789.7 KB/s)
+0009.881 (0) Performance is good - will increase the amount of data we attempt to batch (time=2.0185210704803, normalised_time=2.0016107944706, max_time=9.8786878585815, data points known=1, old_max_bytes=26214400, new_max_bytes=78579911)
+0009.886 (0) Zip: backup_2021-09-10-0615_UAway_22b275019f96-plugins.zip.tmp: 6000 files added (on-disk size: 27621.8 KB)
+0009.890 (0) Zip: backup_2021-09-10-0615_UAway_22b275019f96-plugins.zip.tmp: 6100 files added (on-disk size: 27621.8 KB)
+0009.892 (0) Zip: backup_2021-09-10-0615_UAway_22b275019f96-plugins.zip.tmp: 6200 files added (on-disk size: 27621.8 KB)
+0009.895 (0) Zip: backup_2021-09-10-0615_UAway_22b275019f96-plugins.zip.tmp: 6300 files added (on-disk size: 27621.8 KB)
+0009.898 (0) Zip: backup_2021-09-10-0615_UAway_22b275019f96-plugins.zip.tmp: 6400 files added (on-disk size: 27621.8 KB)
+0009.901 (0) Zip: backup_2021-09-10-0615_UAway_22b275019f96-plugins.zip.tmp: 6500 files added (on-disk size: 27621.8 KB)
+0009.903 (0) Zip: backup_2021-09-10-0615_UAway_22b275019f96-plugins.zip.tmp: 6600 files added (on-disk size: 27621.8 KB)
+0009.906 (0) Zip: backup_2021-09-10-0615_UAway_22b275019f96-plugins.zip.tmp: 6700 files added (on-disk size: 27621.8 KB)
+0009.909 (0) Zip: backup_2021-09-10-0615_UAway_22b275019f96-plugins.zip.tmp: 6800 files added (on-disk size: 27621.8 KB)
+0009.911 (0) Zip: backup_2021-09-10-0615_UAway_22b275019f96-plugins.zip.tmp: 6900 files added (on-disk size: 27621.8 KB)
+0009.914 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (12.1 MB, 16118 files batched, 1001 (6933) added so far); re-opening (prior size: 27621.8 KB)
+0011.208 (0) Zip: backup_2021-09-10-0615_UAway_22b275019f96-plugins.zip.tmp: 7000 files added (on-disk size: 31828 KB)
+0011.211 (0) Zip: backup_2021-09-10-0615_UAway_22b275019f96-plugins.zip.tmp: 7100 files added (on-disk size: 31828 KB)
+0011.215 (0) Zip: backup_2021-09-10-0615_UAway_22b275019f96-plugins.zip.tmp: 7200 files added (on-disk size: 31828 KB)
+0011.218 (0) Zip: backup_2021-09-10-0615_UAway_22b275019f96-plugins.zip.tmp: 7300 files added (on-disk size: 31828 KB)
+0011.221 (0) Zip: backup_2021-09-10-0615_UAway_22b275019f96-plugins.zip.tmp: 7400 files added (on-disk size: 31828 KB)
+0011.223 (0) Zip: backup_2021-09-10-0615_UAway_22b275019f96-plugins.zip.tmp: 7500 files added (on-disk size: 31828 KB)
+0011.227 (0) Zip: backup_2021-09-10-0615_UAway_22b275019f96-plugins.zip.tmp: 7600 files added (on-disk size: 31828 KB)
+0011.230 (0) Zip: backup_2021-09-10-0615_UAway_22b275019f96-plugins.zip.tmp: 7700 files added (on-disk size: 31828 KB)
+0011.231 (0) Zip: backup_2021-09-10-0615_UAway_22b275019f96-plugins.zip.tmp: 7800 files added (on-disk size: 31828 KB)
+0011.235 (0) Zip: backup_2021-09-10-0615_UAway_22b275019f96-plugins.zip.tmp: 7900 files added (on-disk size: 31828 KB)
+0011.238 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (14.7 MB, 16118 files batched, 1001 (7934) added so far); re-opening (prior size: 31828 KB)
+0012.449 (0) backup_2021-09-10-0615_UAway_22b275019f96-plugins.zip.tmp: size is now: 37.50 MB
+0012.884 (0) Zip: backup_2021-09-10-0615_UAway_22b275019f96-plugins.zip.tmp: 8000 files added (on-disk size: 38443.1 KB)
+0012.887 (0) Zip: backup_2021-09-10-0615_UAway_22b275019f96-plugins.zip.tmp: 8100 files added (on-disk size: 38443.1 KB)
+0012.891 (0) Zip: backup_2021-09-10-0615_UAway_22b275019f96-plugins.zip.tmp: 8200 files added (on-disk size: 38443.1 KB)
+0012.894 (0) Zip: backup_2021-09-10-0615_UAway_22b275019f96-plugins.zip.tmp: 8300 files added (on-disk size: 38443.1 KB)
+0012.897 (0) Zip: backup_2021-09-10-0615_UAway_22b275019f96-plugins.zip.tmp: 8400 files added (on-disk size: 38443.1 KB)
+0012.899 (0) Zip: backup_2021-09-10-0615_UAway_22b275019f96-plugins.zip.tmp: 8500 files added (on-disk size: 38443.1 KB)
+0012.902 (0) Zip: backup_2021-09-10-0615_UAway_22b275019f96-plugins.zip.tmp: 8600 files added (on-disk size: 38443.1 KB)
+0012.905 (0) Zip: backup_2021-09-10-0615_UAway_22b275019f96-plugins.zip.tmp: 8700 files added (on-disk size: 38443.1 KB)
+0012.907 (0) Zip: backup_2021-09-10-0615_UAway_22b275019f96-plugins.zip.tmp: 8800 files added (on-disk size: 38443.1 KB)
+0012.910 (0) Zip: backup_2021-09-10-0615_UAway_22b275019f96-plugins.zip.tmp: 8900 files added (on-disk size: 38443.1 KB)
+0012.913 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (16 MB, 16118 files batched, 1001 (8935) added so far); re-opening (prior size: 38443.1 KB)
+0014.436 (0) Zip: backup_2021-09-10-0615_UAway_22b275019f96-plugins.zip.tmp: 9000 files added (on-disk size: 44308.1 KB)
+0014.441 (0) Zip: backup_2021-09-10-0615_UAway_22b275019f96-plugins.zip.tmp: 9100 files added (on-disk size: 44308.1 KB)
+0014.444 (0) Zip: backup_2021-09-10-0615_UAway_22b275019f96-plugins.zip.tmp: 9200 files added (on-disk size: 44308.1 KB)
+0014.447 (0) Zip: backup_2021-09-10-0615_UAway_22b275019f96-plugins.zip.tmp: 9300 files added (on-disk size: 44308.1 KB)
+0014.453 (0) Zip: backup_2021-09-10-0615_UAway_22b275019f96-plugins.zip.tmp: 9400 files added (on-disk size: 44308.1 KB)
+0014.458 (0) Zip: backup_2021-09-10-0615_UAway_22b275019f96-plugins.zip.tmp: 9500 files added (on-disk size: 44308.1 KB)
+0014.461 (0) Zip: backup_2021-09-10-0615_UAway_22b275019f96-plugins.zip.tmp: 9600 files added (on-disk size: 44308.1 KB)
+0014.464 (0) Zip: backup_2021-09-10-0615_UAway_22b275019f96-plugins.zip.tmp: 9700 files added (on-disk size: 44308.1 KB)
+0014.468 (0) Zip: backup_2021-09-10-0615_UAway_22b275019f96-plugins.zip.tmp: 9800 files added (on-disk size: 44308.1 KB)
+0014.471 (0) Zip: backup_2021-09-10-0615_UAway_22b275019f96-plugins.zip.tmp: 9900 files added (on-disk size: 44308.1 KB)
+0014.474 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (20.1 MB, 16118 files batched, 1001 (9936) added so far); re-opening (prior size: 44308.1 KB)
+0016.431 (0) Zip: backup_2021-09-10-0615_UAway_22b275019f96-plugins.zip.tmp: 10000 files added (on-disk size: 51460.8 KB)
+0016.435 (0) Zip: backup_2021-09-10-0615_UAway_22b275019f96-plugins.zip.tmp: 10100 files added (on-disk size: 51460.8 KB)
+0016.439 (0) Zip: backup_2021-09-10-0615_UAway_22b275019f96-plugins.zip.tmp: 10200 files added (on-disk size: 51460.8 KB)
+0016.442 (0) Zip: backup_2021-09-10-0615_UAway_22b275019f96-plugins.zip.tmp: 10300 files added (on-disk size: 51460.8 KB)
+0016.443 (0) Zip: backup_2021-09-10-0615_UAway_22b275019f96-plugins.zip.tmp: 10400 files added (on-disk size: 51460.8 KB)
+0016.447 (0) Zip: backup_2021-09-10-0615_UAway_22b275019f96-plugins.zip.tmp: 10500 files added (on-disk size: 51460.8 KB)
+0016.450 (0) Zip: backup_2021-09-10-0615_UAway_22b275019f96-plugins.zip.tmp: 10600 files added (on-disk size: 51460.8 KB)
+0016.455 (0) Zip: backup_2021-09-10-0615_UAway_22b275019f96-plugins.zip.tmp: 10700 files added (on-disk size: 51460.8 KB)
+0016.458 (0) Zip: backup_2021-09-10-0615_UAway_22b275019f96-plugins.zip.tmp: 10800 files added (on-disk size: 51460.8 KB)
+0016.461 (0) Zip: backup_2021-09-10-0615_UAway_22b275019f96-plugins.zip.tmp: 10900 files added (on-disk size: 51460.8 KB)
+0016.462 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (9.7 MB, 16118 files batched, 1001 (10937) added so far); re-opening (prior size: 51460.8 KB)
+0017.699 (0) Zip: backup_2021-09-10-0615_UAway_22b275019f96-plugins.zip.tmp: 11000 files added (on-disk size: 54497.9 KB)
+0017.703 (0) Zip: backup_2021-09-10-0615_UAway_22b275019f96-plugins.zip.tmp: 11100 files added (on-disk size: 54497.9 KB)
+0017.707 (0) Zip: backup_2021-09-10-0615_UAway_22b275019f96-plugins.zip.tmp: 11200 files added (on-disk size: 54497.9 KB)
+0017.712 (0) Zip: backup_2021-09-10-0615_UAway_22b275019f96-plugins.zip.tmp: 11300 files added (on-disk size: 54497.9 KB)
+0017.716 (0) Zip: backup_2021-09-10-0615_UAway_22b275019f96-plugins.zip.tmp: 11400 files added (on-disk size: 54497.9 KB)
+0017.719 (0) Zip: backup_2021-09-10-0615_UAway_22b275019f96-plugins.zip.tmp: 11500 files added (on-disk size: 54497.9 KB)
+0017.723 (0) Zip: backup_2021-09-10-0615_UAway_22b275019f96-plugins.zip.tmp: 11600 files added (on-disk size: 54497.9 KB)
+0017.726 (0) Zip: backup_2021-09-10-0615_UAway_22b275019f96-plugins.zip.tmp: 11700 files added (on-disk size: 54497.9 KB)
+0017.728 (0) Zip: backup_2021-09-10-0615_UAway_22b275019f96-plugins.zip.tmp: 11800 files added (on-disk size: 54497.9 KB)
+0017.732 (0) Zip: backup_2021-09-10-0615_UAway_22b275019f96-plugins.zip.tmp: 11900 files added (on-disk size: 54497.9 KB)
+0017.735 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (21.8 MB, 16118 files batched, 1001 (11938) added so far); re-opening (prior size: 54497.9 KB)
+0019.388 (0) Zip: backup_2021-09-10-0615_UAway_22b275019f96-plugins.zip.tmp: 12000 files added (on-disk size: 60248.6 KB)
+0019.392 (0) Zip: backup_2021-09-10-0615_UAway_22b275019f96-plugins.zip.tmp: 12100 files added (on-disk size: 60248.6 KB)
+0019.395 (0) Zip: backup_2021-09-10-0615_UAway_22b275019f96-plugins.zip.tmp: 12200 files added (on-disk size: 60248.6 KB)
+0019.398 (0) Zip: backup_2021-09-10-0615_UAway_22b275019f96-plugins.zip.tmp: 12300 files added (on-disk size: 60248.6 KB)
+0019.401 (0) Zip: backup_2021-09-10-0615_UAway_22b275019f96-plugins.zip.tmp: 12400 files added (on-disk size: 60248.6 KB)
+0019.403 (0) Zip: backup_2021-09-10-0615_UAway_22b275019f96-plugins.zip.tmp: 12500 files added (on-disk size: 60248.6 KB)
+0019.407 (0) Zip: backup_2021-09-10-0615_UAway_22b275019f96-plugins.zip.tmp: 12600 files added (on-disk size: 60248.6 KB)
+0019.410 (0) Zip: backup_2021-09-10-0615_UAway_22b275019f96-plugins.zip.tmp: 12700 files added (on-disk size: 60248.6 KB)
+0019.412 (0) Zip: backup_2021-09-10-0615_UAway_22b275019f96-plugins.zip.tmp: 12800 files added (on-disk size: 60248.6 KB)
+0019.415 (0) Zip: backup_2021-09-10-0615_UAway_22b275019f96-plugins.zip.tmp: 12900 files added (on-disk size: 60248.6 KB)
+0019.418 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (8.3 MB, 16118 files batched, 1001 (12939) added so far); re-opening (prior size: 60248.6 KB)
+0020.151 (0) Zip: backup_2021-09-10-0615_UAway_22b275019f96-plugins.zip.tmp: 13000 files added (on-disk size: 63155.2 KB)
+0020.155 (0) Zip: backup_2021-09-10-0615_UAway_22b275019f96-plugins.zip.tmp: 13100 files added (on-disk size: 63155.2 KB)
+0020.158 (0) Zip: backup_2021-09-10-0615_UAway_22b275019f96-plugins.zip.tmp: 13200 files added (on-disk size: 63155.2 KB)
+0020.161 (0) Zip: backup_2021-09-10-0615_UAway_22b275019f96-plugins.zip.tmp: 13300 files added (on-disk size: 63155.2 KB)
+0020.166 (0) Zip: backup_2021-09-10-0615_UAway_22b275019f96-plugins.zip.tmp: 13400 files added (on-disk size: 63155.2 KB)
+0020.170 (0) Zip: backup_2021-09-10-0615_UAway_22b275019f96-plugins.zip.tmp: 13500 files added (on-disk size: 63155.2 KB)
+0020.173 (0) Zip: backup_2021-09-10-0615_UAway_22b275019f96-plugins.zip.tmp: 13600 files added (on-disk size: 63155.2 KB)
+0020.175 (0) Zip: backup_2021-09-10-0615_UAway_22b275019f96-plugins.zip.tmp: 13700 files added (on-disk size: 63155.2 KB)
+0020.179 (0) Zip: backup_2021-09-10-0615_UAway_22b275019f96-plugins.zip.tmp: 13800 files added (on-disk size: 63155.2 KB)
+0020.182 (0) Zip: backup_2021-09-10-0615_UAway_22b275019f96-plugins.zip.tmp: 13900 files added (on-disk size: 63155.2 KB)
+0020.183 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (16.5 MB, 16118 files batched, 1001 (13940) added so far); re-opening (prior size: 63155.2 KB)
+0022.443 (0) Zip: backup_2021-09-10-0615_UAway_22b275019f96-plugins.zip.tmp: 14000 files added (on-disk size: 67718 KB)
+0022.447 (0) Zip: backup_2021-09-10-0615_UAway_22b275019f96-plugins.zip.tmp: 14100 files added (on-disk size: 67718 KB)
+0022.450 (0) Zip: backup_2021-09-10-0615_UAway_22b275019f96-plugins.zip.tmp: 14200 files added (on-disk size: 67718 KB)
+0022.455 (0) Zip: backup_2021-09-10-0615_UAway_22b275019f96-plugins.zip.tmp: 14300 files added (on-disk size: 67718 KB)
+0022.459 (0) Zip: backup_2021-09-10-0615_UAway_22b275019f96-plugins.zip.tmp: 14400 files added (on-disk size: 67718 KB)
+0022.464 (0) Zip: backup_2021-09-10-0615_UAway_22b275019f96-plugins.zip.tmp: 14500 files added (on-disk size: 67718 KB)
+0022.467 (0) Zip: backup_2021-09-10-0615_UAway_22b275019f96-plugins.zip.tmp: 14600 files added (on-disk size: 67718 KB)
+0022.470 (0) Zip: backup_2021-09-10-0615_UAway_22b275019f96-plugins.zip.tmp: 14700 files added (on-disk size: 67718 KB)
+0022.473 (0) Zip: backup_2021-09-10-0615_UAway_22b275019f96-plugins.zip.tmp: 14800 files added (on-disk size: 67718 KB)
+0022.476 (0) Zip: backup_2021-09-10-0615_UAway_22b275019f96-plugins.zip.tmp: 14900 files added (on-disk size: 67718 KB)
+0022.479 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (37.1 MB, 16118 files batched, 1001 (14941) added so far); re-opening (prior size: 67718 KB)
+0024.830 (0) Zip: backup_2021-09-10-0615_UAway_22b275019f96-plugins.zip.tmp: 15000 files added (on-disk size: 77942.2 KB)
+0024.834 (0) Zip: backup_2021-09-10-0615_UAway_22b275019f96-plugins.zip.tmp: 15100 files added (on-disk size: 77942.2 KB)
+0024.836 (0) Zip: backup_2021-09-10-0615_UAway_22b275019f96-plugins.zip.tmp: 15200 files added (on-disk size: 77942.2 KB)
+0024.840 (0) Zip: backup_2021-09-10-0615_UAway_22b275019f96-plugins.zip.tmp: 15300 files added (on-disk size: 77942.2 KB)
+0024.855 (0) Zip: backup_2021-09-10-0615_UAway_22b275019f96-plugins.zip.tmp: 15400 files added (on-disk size: 77942.2 KB)
+0024.859 (0) Zip: backup_2021-09-10-0615_UAway_22b275019f96-plugins.zip.tmp: 15500 files added (on-disk size: 77942.2 KB)
+0024.863 (0) Zip: backup_2021-09-10-0615_UAway_22b275019f96-plugins.zip.tmp: 15600 files added (on-disk size: 77942.2 KB)
+0024.866 (0) Zip: backup_2021-09-10-0615_UAway_22b275019f96-plugins.zip.tmp: 15700 files added (on-disk size: 77942.2 KB)
+0024.870 (0) Zip: backup_2021-09-10-0615_UAway_22b275019f96-plugins.zip.tmp: 15800 files added (on-disk size: 77942.2 KB)
+0024.873 (0) Zip: backup_2021-09-10-0615_UAway_22b275019f96-plugins.zip.tmp: 15900 files added (on-disk size: 77942.2 KB)
+0024.875 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (5.5 MB, 16118 files batched, 1001 (15942) added so far); re-opening (prior size: 77942.2 KB)
+0026.290 (0) Zip: backup_2021-09-10-0615_UAway_22b275019f96-plugins.zip.tmp: 16000 files added (on-disk size: 79933.6 KB)
+0026.297 (0) Zip: backup_2021-09-10-0615_UAway_22b275019f96-plugins.zip.tmp: 16100 files added (on-disk size: 79933.6 KB)
+0028.946 (0) Created plugins zip (0) - 80929 KB in 28.8 s (2805.6 KB/s) (sha1: 1fb4c2f66539954333863808e166e52832cf47f0, sha256: e51217235b630cf6dc8943c433665ed25b63469c8d06b9adc6dc806a9e93b670)
+0028.957 (0) Beginning creation of dump of themes (split every: 400 MB)
+0029.493 (0) Total entities for the zip file: 606 directories, 2158 files (0 skipped as non-modified), 64 MB
+0029.498 (0) Zip: backup_2021-09-10-0615_UAway_22b275019f96-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0029.501 (0) Zip: backup_2021-09-10-0615_UAway_22b275019f96-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0029.504 (0) Zip: backup_2021-09-10-0615_UAway_22b275019f96-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0029.507 (0) Zip: backup_2021-09-10-0615_UAway_22b275019f96-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+0029.510 (0) Zip: backup_2021-09-10-0615_UAway_22b275019f96-themes.zip.tmp: 500 files added (on-disk size: 0 KB)
+0029.514 (0) Zip: backup_2021-09-10-0615_UAway_22b275019f96-themes.zip.tmp: 600 files added (on-disk size: 0 KB)
+0029.516 (0) Zip: backup_2021-09-10-0615_UAway_22b275019f96-themes.zip.tmp: 700 files added (on-disk size: 0 KB)
+0029.519 (0) Zip: backup_2021-09-10-0615_UAway_22b275019f96-themes.zip.tmp: 800 files added (on-disk size: 0 KB)
+0029.522 (0) Zip: backup_2021-09-10-0615_UAway_22b275019f96-themes.zip.tmp: 900 files added (on-disk size: 0 KB)
+0029.525 (0) Zip: backup_2021-09-10-0615_UAway_22b275019f96-themes.zip.tmp: 1000 files added (on-disk size: 0 KB)
+0029.526 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (29.3 MB, 2158 files batched, 1001 (1001) added so far); re-opening (prior size: 0 KB)
+0031.541 (0) backup_2021-09-10-0615_UAway_22b275019f96-themes.zip.tmp: size is now: 10.70 MB
+0032.203 (0) Zip: backup_2021-09-10-0615_UAway_22b275019f96-themes.zip.tmp: 1100 files added (on-disk size: 10931.5 KB)
+0032.210 (0) Zip: backup_2021-09-10-0615_UAway_22b275019f96-themes.zip.tmp: 1200 files added (on-disk size: 10931.5 KB)
+0032.212 (0) Zip: backup_2021-09-10-0615_UAway_22b275019f96-themes.zip.tmp: 1300 files added (on-disk size: 10931.5 KB)
+0032.215 (0) Zip: backup_2021-09-10-0615_UAway_22b275019f96-themes.zip.tmp: 1400 files added (on-disk size: 10931.5 KB)
+0032.218 (0) Zip: backup_2021-09-10-0615_UAway_22b275019f96-themes.zip.tmp: 1500 files added (on-disk size: 10931.5 KB)
+0032.221 (0) Zip: backup_2021-09-10-0615_UAway_22b275019f96-themes.zip.tmp: 1600 files added (on-disk size: 10931.5 KB)
+0032.223 (0) Zip: backup_2021-09-10-0615_UAway_22b275019f96-themes.zip.tmp: 1700 files added (on-disk size: 10931.5 KB)
+0032.226 (0) Zip: backup_2021-09-10-0615_UAway_22b275019f96-themes.zip.tmp: 1800 files added (on-disk size: 10931.5 KB)
+0032.230 (0) Zip: backup_2021-09-10-0615_UAway_22b275019f96-themes.zip.tmp: 1900 files added (on-disk size: 10931.5 KB)
+0032.232 (0) Zip: backup_2021-09-10-0615_UAway_22b275019f96-themes.zip.tmp: 2000 files added (on-disk size: 10931.5 KB)
+0032.234 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (33 MB, 2158 files batched, 1001 (2002) added so far); re-opening (prior size: 10931.5 KB)
+0034.038 (0) backup_2021-09-10-0615_UAway_22b275019f96-themes.zip.tmp: size is now: 27.30 MB
+0034.045 (0) Zip: backup_2021-09-10-0615_UAway_22b275019f96-themes.zip.tmp: 2100 files added (on-disk size: 27938.8 KB)
+0034.891 (0) Created themes zip (0) - 28657.6 KB in 5.9 s (4863.8 KB/s) (sha1: 619449b4eff697ba916a784c09b1e02052bae1c4, sha256: bb00991651998afb80a53317cc139080f9c4116c630cc5522b0960f6f14123bd)
+0034.898 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0034.899 (0) Looking for candidates to backup in: /opt/bitnami/wordpress/wp-content/uploads
+0034.901 (0) finding files: uag-plugin: adding to list (1)
+0034.902 (0) finding files: elementor: adding to list (2)
+0034.905 (0) finding files: 2021: adding to list (3)
+0034.906 (0) finding files: wp-staging: adding to list (4)
+0034.907 (0) finding files: visualizer: adding to list (5)
+0034.909 (0) finding files: astra-sites: adding to list (6)
+0034.910 (0) finding files: wp-data-access: adding to list (7)
+0034.913 (0) finding files: wpforms: adding to list (8)
+0034.914 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0035.078 (0) Total entities for the zip file: 17 directories, 368 files (0 skipped as non-modified), 34.5 MB
+0035.082 (0) Zip: backup_2021-09-10-0615_UAway_22b275019f96-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+0035.085 (0) Zip: backup_2021-09-10-0615_UAway_22b275019f96-uploads.zip.tmp: 200 files added (on-disk size: 0 KB)
+0035.088 (0) Zip: backup_2021-09-10-0615_UAway_22b275019f96-uploads.zip.tmp: 300 files added (on-disk size: 0 KB)
+0036.208 (0) backup_2021-09-10-0615_UAway_22b275019f96-uploads.zip.tmp: size is now: 32.70 MB
+0036.758 (0) Created uploads zip (0) - 33481.2 KB in 1.8 s (18168.5 KB/s) (sha1: 1994cb49aa40159e3492e7b1ed165cd05a350637, sha256: 57c406970894d9361a03545286ce65bf5a7f3e6173f283d2905ead510281f2b0)
+0036.762 (0) Beginning backup of other directories found in the content directory (index: 0)
+0036.767 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0036.769 (0) Looking for candidates to backup in: /opt/bitnami/wordpress/wp-content
+0036.770 (0) finding files: languages: adding to list (1)
+0036.773 (0) finding files: vpbackups: skipping: excluded by options (glob)
+0036.774 (0) finding files: index.php-old: adding to list (2)
+0036.775 (0) finding files: uploads-old-old: adding to list (3)
+0036.777 (0) finding files: themes: skipping: this is the themes directory
+0036.778 (0) finding files: vpcache-old: adding to list (4)
+0036.779 (0) finding files: themes-old-old: adding to list (5)
+0036.781 (0) finding files: uploads: skipping: this is the uploads directory
+0036.782 (0) finding files: mu-plugins-old: adding to list (6)
+0036.784 (0) finding files: languages-old: adding to list (7)
+0036.785 (0) finding files: plugins-old-old: adding to list (8)
+0036.786 (0) finding files: uploads-old: adding to list (9)
+0036.788 (0) finding files: plugins-old: adding to list (10)
+0036.789 (0) finding files: index.php-old-old: adding to list (11)
+0036.790 (0) finding files: themes-old-old-old: adding to list (12)
+0036.792 (0) finding files: plugins: skipping: this is the plugins directory
+0036.793 (0) finding files: themes-old: adding to list (13)
+0036.794 (0) finding files: mu-plugins: adding to list (14)
+0036.795 (0) finding files: upgrade: skipping: excluded by options
+0036.797 (0) finding files: languages-old-old: adding to list (15)
+0036.798 (0) finding files: vpcache-old-old: adding to list (16)
+0036.800 (0) finding files: uploads-old-old-old: adding to list (17)
+0036.801 (0) finding files: updraft: skipping: this is the updraft directory
+0036.802 (0) finding files: index.php: adding to list (18)
+0036.804 (0) finding files: ai1wm-backups: skipping: excluded by options (glob)
+0036.805 (0) finding files: wflogs-old: adding to list (19)
+0036.806 (0) finding files: plugins-old-old-old: adding to list (20)
+0036.810 (0) finding files: vpcache: adding to list (21)
+0036.811 (0) finding files: languages-old-old-old: adding to list (22)
+0036.813 (0) finding files: wflogs: adding to list (23)
+0036.837 (0) Total entities for the zip file: 23 directories, 29 files (0 skipped as non-modified), 9 MB
+0037.848 (0) backup_2021-09-10-0615_UAway_22b275019f96-others.zip.tmp: size is now: 4.20 MB
+0037.907 (0) Created others zip (0) - 4323 KB in 1.1 s (3956.8 KB/s) (sha1: 3fe218bd701f64262703b6cda7ce79978e53c632, sha256: b1431c8286d3e53eb64fdce298297b559e2b419a7091fe4eced1267a83c70b00)
+0037.917 (0) Saving backup status to database (elements: 8)
+0037.921 (0) Beginning creation of database dump (WordPress DB)
+0037.922 (0) SQL compatibility mode is: ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+0038.064 (0) Table wp_options: Total expected rows (approximate): 1304
+0038.657 (0) Table wp_options: Rows added in this batch (next record: 35847): 1390 (uncompressed bytes in this segment=15897278) in 0.59 seconds
+0038.669 (0) Table wp_options: finishing file(s) (2, 1869.3 KB)
+0038.674 (0) Table wp_users: Total expected rows (approximate): 5
+0038.678 (0) Table wp_users: Rows added in this batch (next record: 6): 5 (uncompressed bytes in this segment=2076) in 0.00 seconds
+0038.684 (0) Table wp_users: finishing file(s) (2, 0.9 KB)
+0038.688 (0) Table wp_usermeta: Total expected rows (approximate): 108
+0038.697 (0) Table wp_usermeta: Rows added in this batch (next record: 162): 108 (uncompressed bytes in this segment=8767) in 0.01 seconds
+0038.705 (0) Table wp_usermeta: finishing file(s) (2, 3.1 KB)
+0038.710 (0) Table wp_actionscheduler_actions: Total expected rows (approximate): 64
+0038.719 (0) Table wp_actionscheduler_actions: Rows added in this batch (next record: 90): 64 (uncompressed bytes in this segment=27133) in 0.01 seconds
+0038.726 (0) Table wp_actionscheduler_actions: finishing file(s) (2, 2.7 KB)
+0038.731 (0) Table wp_actionscheduler_claims: Total expected rows (approximate): 0
+0038.735 (0) Table wp_actionscheduler_claims: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=631) in 0.00 seconds
+0038.741 (0) Table wp_actionscheduler_claims: finishing file(s) (2, 0.4 KB)
+0038.746 (0) Table wp_actionscheduler_groups: Total expected rows (approximate): 3
+0038.747 (0) Table wp_actionscheduler_groups: Rows added in this batch (next record: 3): 3 (uncompressed bytes in this segment=714) in 0.00 seconds
+0038.754 (0) Table wp_actionscheduler_groups: finishing file(s) (2, 0.4 KB)
+0038.759 (0) Table wp_actionscheduler_logs: Total expected rows (approximate): 178
+0038.763 (0) Table wp_actionscheduler_logs: Rows added in this batch (next record: 181): 178 (uncompressed bytes in this segment=15723) in 0.00 seconds
+0038.769 (0) Table wp_actionscheduler_logs: finishing file(s) (2, 2.1 KB)
+0038.774 (0) Table wp_commentmeta: Total expected rows (approximate): 0
+0038.781 (0) Table wp_commentmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=684) in 0.00 seconds
+0038.787 (0) Table wp_commentmeta: finishing file(s) (2, 0.4 KB)
+0038.791 (0) Table wp_comments: Total expected rows (approximate): 0
+0038.797 (0) Table wp_comments: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=2104) in 0.00 seconds
+0038.802 (0) Table wp_comments: finishing file(s) (2, 0.7 KB)
+0038.807 (0) Table wp_links: Total expected rows (approximate): 0
+0038.810 (0) Table wp_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1266) in 0.00 seconds
+0038.816 (0) Table wp_links: finishing file(s) (2, 0.5 KB)
+0038.820 (0) Table wp_postmeta: Total expected rows (approximate): 2784
+0039.374 (0) Table wp_postmeta: Rows added in this batch (next record: 3688): 2863 (uncompressed bytes in this segment=15392218) in 0.55 seconds
+0039.384 (0) Table wp_postmeta: finishing file(s) (2, 1660.8 KB)
+0039.388 (0) Table wp_posts: Total expected rows (approximate): 470
+0039.482 (0) Table wp_posts: Rows added in this batch (next record: 1250): 530 (uncompressed bytes in this segment=3780662) in 0.09 seconds
+0039.493 (0) Table wp_posts: finishing file(s) (2, 258.1 KB)
+0039.500 (0) Table wp_term_relationships: Total expected rows (approximate): 1111
+0039.509 (0) Table wp_term_relationships: Rows added in this batch (next record: 100000): 1111 (uncompressed bytes in this segment=17762) in 0.01 seconds
+0039.515 (0) Table wp_term_relationships: finishing file(s) (2, 3 KB)
+0039.520 (0) Table wp_term_taxonomy: Total expected rows (approximate): 354
+0039.539 (0) Table wp_term_taxonomy: Rows added in this batch (next record: 373): 369 (uncompressed bytes in this segment=349551) in 0.02 seconds
+0039.547 (0) Table wp_term_taxonomy: finishing file(s) (2, 29.1 KB)
+0039.552 (0) Table wp_termmeta: Total expected rows (approximate): 365
+0039.562 (0) Table wp_termmeta: Rows added in this batch (next record: 366): 365 (uncompressed bytes in this segment=20909) in 0.01 seconds
+0039.570 (0) Table wp_termmeta: finishing file(s) (2, 2.9 KB)
+0039.575 (0) Table wp_terms: Total expected rows (approximate): 369
+0039.585 (0) Table wp_terms: Rows added in this batch (next record: 373): 369 (uncompressed bytes in this segment=30848) in 0.01 seconds
+0039.592 (0) Table wp_terms: finishing file(s) (2, 10.1 KB)
+0039.596 (0) Table wp_aioseo_notifications: Total expected rows (approximate): 0
+0039.602 (0) Table wp_aioseo_notifications: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1595) in 0.00 seconds
+0039.610 (0) Table wp_aioseo_notifications: finishing file(s) (2, 0.5 KB)
+0039.617 (0) Table wp_aioseo_posts: Total expected rows (approximate): 0
+0039.623 (0) Table wp_aioseo_posts: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=3565) in 0.00 seconds
+0039.631 (0) Table wp_aioseo_posts: finishing file(s) (2, 0.8 KB)
+0039.636 (0) Table wp_duplicator_packages: Total expected rows (approximate): 0
+0039.642 (0) Table wp_duplicator_packages: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=673) in 0.00 seconds
+0039.650 (0) Table wp_duplicator_packages: finishing file(s) (2, 0.4 KB)
+0039.655 (0) Table wp_e_submissions: Total expected rows (approximate): 0
+0039.659 (0) Table wp_e_submissions: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=2245) in 0.00 seconds
+0039.665 (0) Table wp_e_submissions: finishing file(s) (2, 0.7 KB)
+0039.671 (0) Table wp_e_submissions_actions_log: Total expected rows (approximate): 0
+0039.674 (0) Table wp_e_submissions_actions_log: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1244) in 0.00 seconds
+0039.680 (0) Table wp_e_submissions_actions_log: finishing file(s) (2, 0.5 KB)
+0039.684 (0) Table wp_e_submissions_values: Total expected rows (approximate): 0
+0039.690 (0) Table wp_e_submissions_values: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=723) in 0.00 seconds
+0039.698 (0) Table wp_e_submissions_values: finishing file(s) (2, 0.4 KB)
+0039.704 (0) Table wp_lead_form: Total expected rows (approximate): 0
+0039.707 (0) Table wp_lead_form: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=2318) in 0.00 seconds
+0039.713 (0) Table wp_lead_form: finishing file(s) (2, 0.7 KB)
+0039.719 (0) Table wp_lead_form_data: Total expected rows (approximate): 3
+0039.725 (0) Table wp_lead_form_data: Rows added in this batch (next record: 3): 3 (uncompressed bytes in this segment=1663) in 0.00 seconds
+0039.732 (0) Table wp_lead_form_data: finishing file(s) (2, 0.7 KB)
+0039.737 (0) Table wp_lead_form_extension: Total expected rows (approximate): 0
+0039.740 (0) Table wp_lead_form_extension: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=693) in 0.00 seconds
+0039.746 (0) Table wp_lead_form_extension: finishing file(s) (2, 0.4 KB)
+0039.752 (0) Table wp_lead_form_options: Total expected rows (approximate): 0
+0039.755 (0) Table wp_lead_form_options: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=483) in 0.00 seconds
+0039.761 (0) Table wp_lead_form_options: finishing file(s) (2, 0.3 KB)
+0039.767 (0) Table wp_revisr: Total expected rows (approximate): 0
+0039.770 (0) Table wp_revisr: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=509) in 0.00 seconds
+0039.776 (0) Table wp_revisr: finishing file(s) (2, 0.3 KB)
+0039.780 (0) Table wp_th_popup: Total expected rows (approximate): 0
+0039.784 (0) Table wp_th_popup: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=530) in 0.00 seconds
+0039.790 (0) Table wp_th_popup: finishing file(s) (2, 0.3 KB)
+0039.795 (0) Table wp_wc_admin_note_actions: Total expected rows (approximate): 41
+0039.802 (0) Table wp_wc_admin_note_actions: Rows added in this batch (next record: 78): 41 (uncompressed bytes in this segment=7747) in 0.00 seconds
+0039.809 (0) Table wp_wc_admin_note_actions: finishing file(s) (2, 1.9 KB)
+0039.814 (0) Table wp_wc_admin_notes: Total expected rows (approximate): 38
+0039.819 (0) Table wp_wc_admin_notes: Rows added in this batch (next record: 38): 38 (uncompressed bytes in this segment=20554) in 0.00 seconds
+0039.829 (0) Table wp_wc_admin_notes: finishing file(s) (2, 5.2 KB)
+0039.834 (0) Table wp_wc_category_lookup: Total expected rows (approximate): 3
+0039.837 (0) Table wp_wc_category_lookup: Rows added in this batch (next record: 1000): 3 (uncompressed bytes in this segment=613) in 0.00 seconds
+0039.844 (0) Table wp_wc_category_lookup: finishing file(s) (2, 0.4 KB)
+0039.848 (0) Table wp_wc_customer_lookup: Total expected rows (approximate): 0
+0039.852 (0) Table wp_wc_customer_lookup: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1230) in 0.00 seconds
+0039.858 (0) Table wp_wc_customer_lookup: finishing file(s) (2, 0.5 KB)
+0039.864 (0) Table wp_wc_download_log: Total expected rows (approximate): 0
+0039.869 (0) Table wp_wc_download_log: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=918) in 0.00 seconds
+0039.877 (0) Table wp_wc_download_log: finishing file(s) (2, 0.5 KB)
+0039.883 (0) Table wp_wc_order_coupon_lookup: Total expected rows (approximate): 0
+0039.886 (0) Table wp_wc_order_coupon_lookup: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=711) in 0.00 seconds
+0039.893 (0) Table wp_wc_order_coupon_lookup: finishing file(s) (2, 0.4 KB)
+0039.898 (0) Table wp_wc_order_product_lookup: Total expected rows (approximate): 0
+0039.902 (0) Table wp_wc_order_product_lookup: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1211) in 0.00 seconds
+0039.909 (0) Table wp_wc_order_product_lookup: finishing file(s) (2, 0.5 KB)
+0039.914 (0) Table wp_wc_order_stats: Total expected rows (approximate): 0
+0039.917 (0) Table wp_wc_order_stats: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1102) in 0.00 seconds
+0039.923 (0) Table wp_wc_order_stats: finishing file(s) (2, 0.5 KB)
+0039.928 (0) Table wp_wc_order_tax_lookup: Total expected rows (approximate): 0
+0039.931 (0) Table wp_wc_order_tax_lookup: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=789) in 0.00 seconds
+0039.937 (0) Table wp_wc_order_tax_lookup: finishing file(s) (2, 0.4 KB)
+0039.943 (0) Table wp_wc_product_meta_lookup: Total expected rows (approximate): 0
+0039.947 (0) Table wp_wc_product_meta_lookup: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1329) in 0.00 seconds
+0039.953 (0) Table wp_wc_product_meta_lookup: finishing file(s) (2, 0.5 KB)
+0039.959 (0) Table wp_wc_reserved_stock: Total expected rows (approximate): 0
+0039.962 (0) Table wp_wc_reserved_stock: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=659) in 0.00 seconds
+0039.969 (0) Table wp_wc_reserved_stock: finishing file(s) (2, 0.4 KB)
+0039.975 (0) Table wp_wc_tax_rate_classes: Total expected rows (approximate): 2
+0039.978 (0) Table wp_wc_tax_rate_classes: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=800) in 0.00 seconds
+0039.985 (0) Table wp_wc_tax_rate_classes: finishing file(s) (2, 0.4 KB)
+0039.990 (0) Table wp_wc_webhooks: Total expected rows (approximate): 0
+0039.993 (0) Table wp_wc_webhooks: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1202) in 0.00 seconds
+0039.998 (0) Table wp_wc_webhooks: finishing file(s) (2, 0.5 KB)
+0040.004 (0) Table wp_wfblockediplog: Total expected rows (approximate): 0
+0040.006 (0) Table wp_wfblockediplog: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=627) in 0.00 seconds
+0040.013 (0) Table wp_wfblockediplog: finishing file(s) (2, 0.4 KB)
+0040.018 (0) Table wp_wfblocks7: Total expected rows (approximate): 0
+0040.021 (0) Table wp_wfblocks7: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=816) in 0.00 seconds
+0040.026 (0) Table wp_wfblocks7: finishing file(s) (2, 0.4 KB)
+0040.031 (0) Table wp_wfconfig: Total expected rows (approximate): 243
+0040.039 (0) Table wp_wfconfig: Rows added in this batch (next record: 1000): 243 (uncompressed bytes in this segment=91246) in 0.01 seconds
+0040.045 (0) Table wp_wfconfig: finishing file(s) (2, 18.8 KB)
+0040.050 (0) Table wp_wfcrawlers: Total expected rows (approximate): 0
+0040.053 (0) Table wp_wfcrawlers: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=552) in 0.00 seconds
+0040.058 (0) Table wp_wfcrawlers: finishing file(s) (2, 0.3 KB)
+0040.064 (0) Table wp_wffilechanges: Total expected rows (approximate): 0
+0040.067 (0) Table wp_wffilechanges: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=452) in 0.00 seconds
+0040.073 (0) Table wp_wffilechanges: finishing file(s) (2, 0.3 KB)
+0040.079 (0) Table wp_wffilemods: Total expected rows (approximate): 0
+0040.082 (0) Table wp_wffilemods: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=788) in 0.00 seconds
+0040.088 (0) Table wp_wffilemods: finishing file(s) (2, 0.4 KB)
+0040.092 (0) Table wp_wfhits: Total expected rows (approximate): 0
+0040.095 (0) Table wp_wfhits: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1386) in 0.00 seconds
+0040.102 (0) Table wp_wfhits: finishing file(s) (2, 0.7 KB)
+0040.107 (0) Table wp_wfhoover: Total expected rows (approximate): 0
+0040.109 (0) Table wp_wfhoover: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=515) in 0.00 seconds
+0040.114 (0) Table wp_wfhoover: finishing file(s) (2, 0.3 KB)
+0040.119 (0) Table wp_wfissues: Total expected rows (approximate): 0
+0040.123 (0) Table wp_wfissues: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=2180) in 0.00 seconds
+0040.129 (0) Table wp_wfissues: finishing file(s) (2, 1 KB)
+0040.134 (0) Table wp_wfknownfilelist: Total expected rows (approximate): 0
+0040.137 (0) Table wp_wfknownfilelist: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=431) in 0.00 seconds
+0040.142 (0) Table wp_wfknownfilelist: finishing file(s) (2, 0.3 KB)
+0040.147 (0) Table wp_wflivetraffichuman: Total expected rows (approximate): 0
+0040.150 (0) Table wp_wflivetraffichuman: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=648) in 0.00 seconds
+0040.157 (0) Table wp_wflivetraffichuman: finishing file(s) (2, 0.3 KB)
+0040.162 (0) Table wp_wflocs: Total expected rows (approximate): 0
+0040.165 (0) Table wp_wflocs: Rows added in this batch (next record: 1000): 1 (uncompressed bytes in this segment=841) in 0.00 seconds
+0040.170 (0) Table wp_wflocs: finishing file(s) (2, 0.5 KB)
+0040.175 (0) Table wp_wflogins: Total expected rows (approximate): 0
+0040.179 (0) Table wp_wflogins: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=962) in 0.00 seconds
+0040.185 (0) Table wp_wflogins: finishing file(s) (2, 0.6 KB)
+0040.190 (0) Table wp_wfls_2fa_secrets: Total expected rows (approximate): 0
+0040.193 (0) Table wp_wfls_2fa_secrets: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=681) in 0.00 seconds
+0040.198 (0) Table wp_wfls_2fa_secrets: finishing file(s) (2, 0.4 KB)
+0040.203 (0) Table wp_wfls_settings: Total expected rows (approximate): 23
+0040.207 (0) Table wp_wfls_settings: Rows added in this batch (next record: 1000): 23 (uncompressed bytes in this segment=1770) in 0.00 seconds
+0040.213 (0) Table wp_wfls_settings: finishing file(s) (2, 0.8 KB)
+0040.218 (0) Table wp_wfnotifications: Total expected rows (approximate): 2
+0040.219 (0) Table wp_wfnotifications: Rows added in this batch (next record: 1000): 2 (uncompressed bytes in this segment=988) in 0.00 seconds
+0040.226 (0) Table wp_wfnotifications: finishing file(s) (2, 0.5 KB)
+0040.231 (0) Table wp_wfpendingissues: Total expected rows (approximate): 0
+0040.234 (0) Table wp_wfpendingissues: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=872) in 0.00 seconds
+0040.241 (0) Table wp_wfpendingissues: finishing file(s) (2, 0.4 KB)
+0040.246 (0) Table wp_wfreversecache: Total expected rows (approximate): 0
+0040.249 (0) Table wp_wfreversecache: Rows added in this batch (next record: 1000): 1 (uncompressed bytes in this segment=606) in 0.00 seconds
+0040.254 (0) Table wp_wfreversecache: finishing file(s) (2, 0.4 KB)
+0040.260 (0) Table wp_wfsnipcache: Total expected rows (approximate): 0
+0040.263 (0) Table wp_wfsnipcache: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=699) in 0.00 seconds
+0040.270 (0) Table wp_wfsnipcache: finishing file(s) (2, 0.4 KB)
+0040.275 (0) Table wp_wfstatus: Total expected rows (approximate): 10
+0040.278 (0) Table wp_wfstatus: Rows added in this batch (next record: 10): 10 (uncompressed bytes in this segment=1504) in 0.00 seconds
+0040.284 (0) Table wp_wfstatus: finishing file(s) (2, 0.7 KB)
+0040.288 (0) Table wp_wftrafficrates: Total expected rows (approximate): 0
+0040.291 (0) Table wp_wftrafficrates: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=566) in 0.00 seconds
+0040.298 (0) Table wp_wftrafficrates: finishing file(s) (2, 0.3 KB)
+0040.303 (0) Table wp_woocommerce_api_keys: Total expected rows (approximate): 0
+0040.307 (0) Table wp_woocommerce_api_keys: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1031) in 0.00 seconds
+0040.314 (0) Table wp_woocommerce_api_keys: finishing file(s) (2, 0.4 KB)
+0040.319 (0) Table wp_woocommerce_attribute_taxonomies: Total expected rows (approximate): 0
+0040.322 (0) Table wp_woocommerce_attribute_taxonomies: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=939) in 0.00 seconds
+0040.328 (0) Table wp_woocommerce_attribute_taxonomies: finishing file(s) (2, 0.4 KB)
+0040.332 (0) Table wp_woocommerce_downloadable_product_permissions: Total expected rows (approximate): 0
+0040.335 (0) Table wp_woocommerce_downloadable_product_permissions: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1514) in 0.00 seconds
+0040.342 (0) Table wp_woocommerce_downloadable_product_permissions: finishing file(s) (2, 0.5 KB)
+0040.347 (0) Table wp_woocommerce_log: Total expected rows (approximate): 0
+0040.353 (0) Table wp_woocommerce_log: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=719) in 0.00 seconds
+0040.360 (0) Table wp_woocommerce_log: finishing file(s) (2, 0.4 KB)
+0040.364 (0) Table wp_woocommerce_order_itemmeta: Total expected rows (approximate): 0
+0040.372 (0) Table wp_woocommerce_order_itemmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=772) in 0.01 seconds
+0040.378 (0) Table wp_woocommerce_order_itemmeta: finishing file(s) (2, 0.4 KB)
+0040.384 (0) Table wp_woocommerce_order_items: Total expected rows (approximate): 0
+0040.389 (0) Table wp_woocommerce_order_items: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=727) in 0.00 seconds
+0040.394 (0) Table wp_woocommerce_order_items: finishing file(s) (2, 0.4 KB)
+0040.399 (0) Table wp_woocommerce_payment_tokenmeta: Total expected rows (approximate): 0
+0040.406 (0) Table wp_woocommerce_payment_tokenmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=799) in 0.00 seconds
+0040.413 (0) Table wp_woocommerce_payment_tokenmeta: finishing file(s) (2, 0.4 KB)
+0040.418 (0) Table wp_woocommerce_payment_tokens: Total expected rows (approximate): 0
+0040.422 (0) Table wp_woocommerce_payment_tokens: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=821) in 0.00 seconds
+0040.429 (0) Table wp_woocommerce_payment_tokens: finishing file(s) (2, 0.4 KB)
+0040.434 (0) Table wp_woocommerce_sessions: Total expected rows (approximate): 2
+0040.439 (0) Table wp_woocommerce_sessions: Rows added in this batch (next record: 3): 2 (uncompressed bytes in this segment=3551) in 0.00 seconds
+0040.446 (0) Table wp_woocommerce_sessions: finishing file(s) (2, 0.9 KB)
+0040.451 (0) Table wp_woocommerce_shipping_zone_locations: Total expected rows (approximate): 0
+0040.454 (0) Table wp_woocommerce_shipping_zone_locations: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=862) in 0.00 seconds
+0040.461 (0) Table wp_woocommerce_shipping_zone_locations: finishing file(s) (2, 0.4 KB)
+0040.466 (0) Table wp_woocommerce_shipping_zone_methods: Total expected rows (approximate): 0
+0040.467 (0) Table wp_woocommerce_shipping_zone_methods: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=765) in 0.00 seconds
+0040.474 (0) Table wp_woocommerce_shipping_zone_methods: finishing file(s) (2, 0.4 KB)
+0040.479 (0) Table wp_woocommerce_shipping_zones: Total expected rows (approximate): 0
+0040.481 (0) Table wp_woocommerce_shipping_zones: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=625) in 0.00 seconds
+0040.486 (0) Table wp_woocommerce_shipping_zones: finishing file(s) (2, 0.3 KB)
+0040.491 (0) Table wp_woocommerce_tax_rate_locations: Total expected rows (approximate): 0
+0040.494 (0) Table wp_woocommerce_tax_rate_locations: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=836) in 0.00 seconds
+0040.501 (0) Table wp_woocommerce_tax_rate_locations: finishing file(s) (2, 0.4 KB)
+0040.506 (0) Table wp_woocommerce_tax_rates: Total expected rows (approximate): 0
+0040.509 (0) Table wp_woocommerce_tax_rates: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1273) in 0.00 seconds
+0040.514 (0) Table wp_woocommerce_tax_rates: finishing file(s) (2, 0.4 KB)
+0040.519 (0) Table wp_wpda_csv_uploads: Total expected rows (approximate): 0
+0040.523 (0) Table wp_wpda_csv_uploads: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=790) in 0.00 seconds
+0040.529 (0) Table wp_wpda_csv_uploads: finishing file(s) (2, 0.4 KB)
+0040.534 (0) Table wp_wpda_logging: Total expected rows (approximate): 0
+0040.537 (0) Table wp_wpda_logging: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=539) in 0.00 seconds
+0040.542 (0) Table wp_wpda_logging: finishing file(s) (2, 0.3 KB)
+0040.547 (0) Table wp_wpda_media: Total expected rows (approximate): 0
+0040.550 (0) Table wp_wpda_media: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=670) in 0.00 seconds
+0040.556 (0) Table wp_wpda_media: finishing file(s) (2, 0.4 KB)
+0040.560 (0) Table wp_wpda_menus: Total expected rows (approximate): 0
+0040.563 (0) Table wp_wpda_menus: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=594) in 0.00 seconds
+0040.569 (0) Table wp_wpda_menus: finishing file(s) (2, 0.3 KB)
+0040.574 (0) Table wp_wpda_project: Total expected rows (approximate): 0
+0040.577 (0) Table wp_wpda_project: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=680) in 0.00 seconds
+0040.619 (0) Table wp_wpda_project: finishing file(s) (2, 0.4 KB)
+0040.694 (0) Table wp_wpda_project_page: Total expected rows (approximate): 0
+0040.731 (0) Table wp_wpda_project_page: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1380) in 0.00 seconds
+0040.738 (0) Table wp_wpda_project_page: finishing file(s) (2, 0.5 KB)
+0040.744 (0) Table wp_wpda_project_table: Total expected rows (approximate): 0
+0040.748 (0) Table wp_wpda_project_table: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=626) in 0.00 seconds
+0040.754 (0) Table wp_wpda_project_table: finishing file(s) (2, 0.3 KB)
+0040.760 (0) Table wp_wpda_publisher: Total expected rows (approximate): 0
+0040.763 (0) Table wp_wpda_publisher: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1775) in 0.00 seconds
+0040.769 (0) Table wp_wpda_publisher: finishing file(s) (2, 0.7 KB)
+0040.775 (0) Table wp_wpda_table_design: Total expected rows (approximate): 0
+0040.778 (0) Table wp_wpda_table_design: Rows added in this batch (next record: 1000): 1 (uncompressed bytes in this segment=1383) in 0.00 seconds
+0040.784 (0) Table wp_wpda_table_design: finishing file(s) (2, 0.6 KB)
+0040.788 (0) Table wp_wpda_table_settings: Total expected rows (approximate): 0
+0040.791 (0) Table wp_wpda_table_settings: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=549) in 0.00 seconds
+0040.797 (0) Table wp_wpda_table_settings: finishing file(s) (2, 0.3 KB)
+0040.802 (0) Table wp_wpforms_tasks_meta: Total expected rows (approximate): 12
+0040.811 (0) Table wp_wpforms_tasks_meta: Rows added in this batch (next record: 12): 12 (uncompressed bytes in this segment=1581) in 0.01 seconds
+0040.819 (0) Table wp_wpforms_tasks_meta: finishing file(s) (2, 0.6 KB)
+0040.824 (0) Table wp_wpgmza: Total expected rows (approximate): 13
+0040.831 (0) Table wp_wpgmza: Rows added in this batch (next record: 14): 13 (uncompressed bytes in this segment=3441) in 0.00 seconds
+0040.839 (0) Table wp_wpgmza: finishing file(s) (2, 1.2 KB)
+0040.844 (0) Table wp_wpgmza_circles: Total expected rows (approximate): 0
+0040.847 (0) Table wp_wpgmza_circles: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=663) in 0.00 seconds
+0040.854 (0) Table wp_wpgmza_circles: finishing file(s) (2, 0.4 KB)
+0040.859 (0) Table wp_wpgmza_maps: Total expected rows (approximate): 0
+0040.866 (0) Table wp_wpgmza_maps: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=5270) in 0.00 seconds
+0040.873 (0) Table wp_wpgmza_maps: finishing file(s) (2, 1.7 KB)
+0040.879 (0) Table wp_wpgmza_polygon: Total expected rows (approximate): 0
+0040.883 (0) Table wp_wpgmza_polygon: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1269) in 0.00 seconds
+0040.890 (0) Table wp_wpgmza_polygon: finishing file(s) (2, 0.4 KB)
+0040.895 (0) Table wp_wpgmza_polylines: Total expected rows (approximate): 0
+0040.901 (0) Table wp_wpgmza_polylines: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=773) in 0.00 seconds
+0040.908 (0) Table wp_wpgmza_polylines: finishing file(s) (2, 0.4 KB)
+0040.912 (0) Table wp_wpgmza_rectangles: Total expected rows (approximate): 0
+0040.915 (0) Table wp_wpgmza_rectangles: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=683) in 0.00 seconds
+0040.922 (0) Table wp_wpgmza_rectangles: finishing file(s) (2, 0.4 KB)
+0040.927 (0) Table wp_xyz_ips_short_code: Total expected rows (approximate): 3
+0040.933 (0) Table wp_xyz_ips_short_code: Rows added in this batch (next record: 3): 3 (uncompressed bytes in this segment=5337) in 0.00 seconds
+0040.940 (0) Table wp_xyz_ips_short_code: finishing file(s) (2, 1.2 KB)
+0040.941 (0) Skipping table (lacks our prefix (wp_)): wpstg0_actionscheduler_actions
+0040.942 (0) Skipping table (lacks our prefix (wp_)): wpstg0_actionscheduler_claims
+0040.945 (0) Skipping table (lacks our prefix (wp_)): wpstg0_actionscheduler_groups
+0040.946 (0) Skipping table (lacks our prefix (wp_)): wpstg0_actionscheduler_logs
+0040.947 (0) Skipping table (lacks our prefix (wp_)): wpstg0_aioseo_notifications
+0040.949 (0) Skipping table (lacks our prefix (wp_)): wpstg0_aioseo_posts
+0040.950 (0) Skipping table (lacks our prefix (wp_)): wpstg0_commentmeta
+0040.952 (0) Skipping table (lacks our prefix (wp_)): wpstg0_comments
+0040.953 (0) Skipping table (lacks our prefix (wp_)): wpstg0_duplicator_packages
+0040.955 (0) Skipping table (lacks our prefix (wp_)): wpstg0_lead_form
+0040.957 (0) Skipping table (lacks our prefix (wp_)): wpstg0_lead_form_data
+0040.958 (0) Skipping table (lacks our prefix (wp_)): wpstg0_lead_form_extension
+0040.961 (0) Skipping table (lacks our prefix (wp_)): wpstg0_lead_form_options
+0040.962 (0) Skipping table (lacks our prefix (wp_)): wpstg0_links
+0040.963 (0) Skipping table (lacks our prefix (wp_)): wpstg0_options
+0040.965 (0) Skipping table (lacks our prefix (wp_)): wpstg0_postmeta
+0040.966 (0) Skipping table (lacks our prefix (wp_)): wpstg0_posts
+0040.968 (0) Skipping table (lacks our prefix (wp_)): wpstg0_revisr
+0040.969 (0) Skipping table (lacks our prefix (wp_)): wpstg0_term_relationships
+0040.971 (0) Skipping table (lacks our prefix (wp_)): wpstg0_term_taxonomy
+0040.973 (0) Skipping table (lacks our prefix (wp_)): wpstg0_termmeta
+0040.974 (0) Skipping table (lacks our prefix (wp_)): wpstg0_terms
+0040.976 (0) Skipping table (lacks our prefix (wp_)): wpstg0_th_popup
+0040.977 (0) Skipping table (lacks our prefix (wp_)): wpstg0_usermeta
+0040.978 (0) Skipping table (lacks our prefix (wp_)): wpstg0_users
+0040.981 (0) Skipping table (lacks our prefix (wp_)): wpstg0_wfblockediplog
+0040.982 (0) Skipping table (lacks our prefix (wp_)): wpstg0_wfblocks7
+0040.983 (0) Skipping table (lacks our prefix (wp_)): wpstg0_wfconfig
+0040.985 (0) Skipping table (lacks our prefix (wp_)): wpstg0_wfcrawlers
+0040.986 (0) Skipping table (lacks our prefix (wp_)): wpstg0_wffilechanges
+0040.989 (0) Skipping table (lacks our prefix (wp_)): wpstg0_wffilemods
+0040.990 (0) Skipping table (lacks our prefix (wp_)): wpstg0_wfhits
+0040.991 (0) Skipping table (lacks our prefix (wp_)): wpstg0_wfhoover
+0040.993 (0) Skipping table (lacks our prefix (wp_)): wpstg0_wfissues
+0040.994 (0) Skipping table (lacks our prefix (wp_)): wpstg0_wfknownfilelist
+0040.996 (0) Skipping table (lacks our prefix (wp_)): wpstg0_wflivetraffichuman
+0040.997 (0) Skipping table (lacks our prefix (wp_)): wpstg0_wflocs
+0040.999 (0) Skipping table (lacks our prefix (wp_)): wpstg0_wflogins
+0041.001 (0) Skipping table (lacks our prefix (wp_)): wpstg0_wfls_2fa_secrets
+0041.002 (0) Skipping table (lacks our prefix (wp_)): wpstg0_wfls_settings
+0041.005 (0) Skipping table (lacks our prefix (wp_)): wpstg0_wfnotifications
+0041.006 (0) Skipping table (lacks our prefix (wp_)): wpstg0_wfpendingissues
+0041.007 (0) Skipping table (lacks our prefix (wp_)): wpstg0_wfreversecache
+0041.009 (0) Skipping table (lacks our prefix (wp_)): wpstg0_wfsnipcache
+0041.010 (0) Skipping table (lacks our prefix (wp_)): wpstg0_wfstatus
+0041.013 (0) Skipping table (lacks our prefix (wp_)): wpstg0_wftrafficrates
+0041.014 (0) Skipping table (lacks our prefix (wp_)): wpstg0_wpda_csv_uploads
+0041.015 (0) Skipping table (lacks our prefix (wp_)): wpstg0_wpda_logging
+0041.017 (0) Skipping table (lacks our prefix (wp_)): wpstg0_wpda_media
+0041.018 (0) Skipping table (lacks our prefix (wp_)): wpstg0_wpda_menus
+0041.020 (0) Skipping table (lacks our prefix (wp_)): wpstg0_wpda_project
+0041.022 (0) Skipping table (lacks our prefix (wp_)): wpstg0_wpda_project_page
+0041.023 (0) Skipping table (lacks our prefix (wp_)): wpstg0_wpda_project_table
+0041.025 (0) Skipping table (lacks our prefix (wp_)): wpstg0_wpda_publisher
+0041.026 (0) Skipping table (lacks our prefix (wp_)): wpstg0_wpda_table_design
+0041.029 (0) Skipping table (lacks our prefix (wp_)): wpstg0_wpda_table_settings
+0041.030 (0) Skipping table (lacks our prefix (wp_)): wpstg0_wpgmza
+0041.031 (0) Skipping table (lacks our prefix (wp_)): wpstg0_wpgmza_circles
+0041.038 (0) Skipping table (lacks our prefix (wp_)): wpstg0_wpgmza_maps
+0041.040 (0) Skipping table (lacks our prefix (wp_)): wpstg0_wpgmza_polygon
+0041.042 (0) Skipping table (lacks our prefix (wp_)): wpstg0_wpgmza_polylines
+0041.043 (0) Skipping table (lacks our prefix (wp_)): wpstg0_wpgmza_rectangles
+0041.045 (0) Skipping table (lacks our prefix (wp_)): wpstg0_wppusher_packages
+0041.046 (0) Skipping table (lacks our prefix (wp_)): wpstg0_xyz_ips_short_code
+0041.048 (0) Skipping table (lacks our prefix (wp_)): wpstg1_actionscheduler_actions
+0041.049 (0) Skipping table (lacks our prefix (wp_)): wpstg1_actionscheduler_claims
+0041.050 (0) Skipping table (lacks our prefix (wp_)): wpstg1_actionscheduler_groups
+0041.052 (0) Skipping table (lacks our prefix (wp_)): wpstg1_actionscheduler_logs
+0041.053 (0) Skipping table (lacks our prefix (wp_)): wpstg1_aioseo_notifications
+0041.054 (0) Skipping table (lacks our prefix (wp_)): wpstg1_aioseo_posts
+0041.056 (0) Skipping table (lacks our prefix (wp_)): wpstg1_commentmeta
+0041.057 (0) Skipping table (lacks our prefix (wp_)): wpstg1_comments
+0041.058 (0) Skipping table (lacks our prefix (wp_)): wpstg1_duplicator_packages
+0041.060 (0) Skipping table (lacks our prefix (wp_)): wpstg1_e_submissions
+0041.061 (0) Skipping table (lacks our prefix (wp_)): wpstg1_e_submissions_actions_log
+0041.062 (0) Skipping table (lacks our prefix (wp_)): wpstg1_e_submissions_values
+0041.064 (0) Skipping table (lacks our prefix (wp_)): wpstg1_lead_form
+0041.065 (0) Skipping table (lacks our prefix (wp_)): wpstg1_lead_form_data
+0041.066 (0) Skipping table (lacks our prefix (wp_)): wpstg1_lead_form_extension
+0041.067 (0) Skipping table (lacks our prefix (wp_)): wpstg1_lead_form_options
+0041.069 (0) Skipping table (lacks our prefix (wp_)): wpstg1_links
+0041.070 (0) Skipping table (lacks our prefix (wp_)): wpstg1_options
+0041.071 (0) Skipping table (lacks our prefix (wp_)): wpstg1_postmeta
+0041.073 (0) Skipping table (lacks our prefix (wp_)): wpstg1_posts
+0041.074 (0) Skipping table (lacks our prefix (wp_)): wpstg1_revisr
+0041.075 (0) Skipping table (lacks our prefix (wp_)): wpstg1_term_relationships
+0041.077 (0) Skipping table (lacks our prefix (wp_)): wpstg1_term_taxonomy
+0041.078 (0) Skipping table (lacks our prefix (wp_)): wpstg1_termmeta
+0041.078 (0) Skipping table (lacks our prefix (wp_)): wpstg1_terms
+0041.081 (0) Skipping table (lacks our prefix (wp_)): wpstg1_th_popup
+0041.082 (0) Skipping table (lacks our prefix (wp_)): wpstg1_usermeta
+0041.083 (0) Skipping table (lacks our prefix (wp_)): wpstg1_users
+0041.085 (0) Skipping table (lacks our prefix (wp_)): wpstg1_wc_admin_note_actions
+0041.086 (0) Skipping table (lacks our prefix (wp_)): wpstg1_wc_admin_notes
+0041.087 (0) Skipping table (lacks our prefix (wp_)): wpstg1_wc_category_lookup
+0041.089 (0) Skipping table (lacks our prefix (wp_)): wpstg1_wc_customer_lookup
+0041.089 (0) Skipping table (lacks our prefix (wp_)): wpstg1_wc_download_log
+0041.090 (0) Skipping table (lacks our prefix (wp_)): wpstg1_wc_order_coupon_lookup
+0041.093 (0) Skipping table (lacks our prefix (wp_)): wpstg1_wc_order_product_lookup
+0041.094 (0) Skipping table (lacks our prefix (wp_)): wpstg1_wc_order_stats
+0041.094 (0) Skipping table (lacks our prefix (wp_)): wpstg1_wc_order_tax_lookup
+0041.096 (0) Skipping table (lacks our prefix (wp_)): wpstg1_wc_product_meta_lookup
+0041.097 (0) Skipping table (lacks our prefix (wp_)): wpstg1_wc_reserved_stock
+0041.098 (0) Skipping table (lacks our prefix (wp_)): wpstg1_wc_tax_rate_classes
+0041.100 (0) Skipping table (lacks our prefix (wp_)): wpstg1_wc_webhooks
+0041.101 (0) Skipping table (lacks our prefix (wp_)): wpstg1_wfblockediplog
+0041.102 (0) Skipping table (lacks our prefix (wp_)): wpstg1_wfblocks7
+0041.104 (0) Skipping table (lacks our prefix (wp_)): wpstg1_wfconfig
+0041.105 (0) Skipping table (lacks our prefix (wp_)): wpstg1_wfcrawlers
+0041.106 (0) Skipping table (lacks our prefix (wp_)): wpstg1_wffilechanges
+0041.106 (0) Skipping table (lacks our prefix (wp_)): wpstg1_wffilemods
+0041.109 (0) Skipping table (lacks our prefix (wp_)): wpstg1_wfhits
+0041.110 (0) Skipping table (lacks our prefix (wp_)): wpstg1_wfhoover
+0041.111 (0) Skipping table (lacks our prefix (wp_)): wpstg1_wfissues
+0041.112 (0) Skipping table (lacks our prefix (wp_)): wpstg1_wfknownfilelist
+0041.113 (0) Skipping table (lacks our prefix (wp_)): wpstg1_wflivetraffichuman
+0041.114 (0) Skipping table (lacks our prefix (wp_)): wpstg1_wflocs
+0041.116 (0) Skipping table (lacks our prefix (wp_)): wpstg1_wflogins
+0041.117 (0) Skipping table (lacks our prefix (wp_)): wpstg1_wfls_2fa_secrets
+0041.118 (0) Skipping table (lacks our prefix (wp_)): wpstg1_wfls_settings
+0041.120 (0) Skipping table (lacks our prefix (wp_)): wpstg1_wfnotifications
+0041.121 (0) Skipping table (lacks our prefix (wp_)): wpstg1_wfpendingissues
+0041.122 (0) Skipping table (lacks our prefix (wp_)): wpstg1_wfreversecache
+0041.124 (0) Skipping table (lacks our prefix (wp_)): wpstg1_wfsnipcache
+0041.125 (0) Skipping table (lacks our prefix (wp_)): wpstg1_wfstatus
+0041.126 (0) Skipping table (lacks our prefix (wp_)): wpstg1_wftrafficrates
+0041.128 (0) Skipping table (lacks our prefix (wp_)): wpstg1_woocommerce_api_keys
+0041.129 (0) Skipping table (lacks our prefix (wp_)): wpstg1_woocommerce_attribute_taxonomies
+0041.130 (0) Skipping table (lacks our prefix (wp_)): wpstg1_woocommerce_downloadable_product_permissions
+0041.132 (0) Skipping table (lacks our prefix (wp_)): wpstg1_woocommerce_log
+0041.133 (0) Skipping table (lacks our prefix (wp_)): wpstg1_woocommerce_order_itemmeta
+0041.134 (0) Skipping table (lacks our prefix (wp_)): wpstg1_woocommerce_order_items
+0041.137 (0) Skipping table (lacks our prefix (wp_)): wpstg1_woocommerce_payment_tokenmeta
+0041.137 (0) Skipping table (lacks our prefix (wp_)): wpstg1_woocommerce_payment_tokens
+0041.138 (0) Skipping table (lacks our prefix (wp_)): wpstg1_woocommerce_sessions
+0041.140 (0) Skipping table (lacks our prefix (wp_)): wpstg1_woocommerce_shipping_zone_locations
+0041.141 (0) Skipping table (lacks our prefix (wp_)): wpstg1_woocommerce_shipping_zone_methods
+0041.142 (0) Skipping table (lacks our prefix (wp_)): wpstg1_woocommerce_shipping_zones
+0041.144 (0) Skipping table (lacks our prefix (wp_)): wpstg1_woocommerce_tax_rate_locations
+0041.145 (0) Skipping table (lacks our prefix (wp_)): wpstg1_woocommerce_tax_rates
+0041.146 (0) Skipping table (lacks our prefix (wp_)): wpstg1_wpda_csv_uploads
+0041.148 (0) Skipping table (lacks our prefix (wp_)): wpstg1_wpda_logging
+0041.149 (0) Skipping table (lacks our prefix (wp_)): wpstg1_wpda_media
+0041.150 (0) Skipping table (lacks our prefix (wp_)): wpstg1_wpda_menus
+0041.151 (0) Skipping table (lacks our prefix (wp_)): wpstg1_wpda_project
+0041.153 (0) Skipping table (lacks our prefix (wp_)): wpstg1_wpda_project_page
+0041.154 (0) Skipping table (lacks our prefix (wp_)): wpstg1_wpda_project_table
+0041.155 (0) Skipping table (lacks our prefix (wp_)): wpstg1_wpda_publisher
+0041.157 (0) Skipping table (lacks our prefix (wp_)): wpstg1_wpda_table_design
+0041.158 (0) Skipping table (lacks our prefix (wp_)): wpstg1_wpda_table_settings
+0041.159 (0) Skipping table (lacks our prefix (wp_)): wpstg1_wpforms_tasks_meta
+0041.160 (0) Skipping table (lacks our prefix (wp_)): wpstg1_wpgmza
+0041.161 (0) Skipping table (lacks our prefix (wp_)): wpstg1_wpgmza_circles
+0041.162 (0) Skipping table (lacks our prefix (wp_)): wpstg1_wpgmza_maps
+0041.165 (0) Skipping table (lacks our prefix (wp_)): wpstg1_wpgmza_polygon
+0041.165 (0) Skipping table (lacks our prefix (wp_)): wpstg1_wpgmza_polylines
+0041.166 (0) Skipping table (lacks our prefix (wp_)): wpstg1_wpgmza_rectangles
+0041.168 (0) Skipping table (lacks our prefix (wp_)): wpstg1_xyz_ips_short_code
+0041.170 (0) backup_2021-09-10-0615_UAway_22b275019f96-db-table-wp_options.table.tmpr35848.gz (1/252/fopen): adding to final database dump
+0041.214 (0) backup_2021-09-10-0615_UAway_22b275019f96-db-table-wp_options.table.gz (2/252/fopen): adding to final database dump
+0041.221 (0) backup_2021-09-10-0615_UAway_22b275019f96-db-table-wp_users.table.tmpr7.gz (3/252/fopen): adding to final database dump
+0041.222 (0) backup_2021-09-10-0615_UAway_22b275019f96-db-table-wp_users.table.gz (4/252/fopen): adding to final database dump
+0041.223 (0) backup_2021-09-10-0615_UAway_22b275019f96-db-table-wp_usermeta.table.tmpr163.gz (5/252/fopen): adding to final database dump
+0041.225 (0) backup_2021-09-10-0615_UAway_22b275019f96-db-table-wp_usermeta.table.gz (6/252/fopen): adding to final database dump
+0041.226 (0) backup_2021-09-10-0615_UAway_22b275019f96-db-table-wp_actionscheduler_actions.table.tmpr91.gz (7/252/fopen): adding to final database dump
+0041.227 (0) backup_2021-09-10-0615_UAway_22b275019f96-db-table-wp_actionscheduler_actions.table.gz (8/252/fopen): adding to final database dump
+0041.229 (0) backup_2021-09-10-0615_UAway_22b275019f96-db-table-wp_actionscheduler_claims.table.tmpr0.gz (9/252/fopen): adding to final database dump
+0041.230 (0) backup_2021-09-10-0615_UAway_22b275019f96-db-table-wp_actionscheduler_claims.table.gz (10/252/fopen): adding to final database dump
+0041.231 (0) backup_2021-09-10-0615_UAway_22b275019f96-db-table-wp_actionscheduler_groups.table.tmpr4.gz (11/252/fopen): adding to final database dump
+0041.233 (0) backup_2021-09-10-0615_UAway_22b275019f96-db-table-wp_actionscheduler_groups.table.gz (12/252/fopen): adding to final database dump
+0041.234 (0) backup_2021-09-10-0615_UAway_22b275019f96-db-table-wp_actionscheduler_logs.table.tmpr182.gz (13/252/fopen): adding to final database dump
+0041.235 (0) backup_2021-09-10-0615_UAway_22b275019f96-db-table-wp_actionscheduler_logs.table.gz (14/252/fopen): adding to final database dump
+0041.237 (0) backup_2021-09-10-0615_UAway_22b275019f96-db-table-wp_commentmeta.table.tmpr0.gz (15/252/fopen): adding to final database dump
+0041.238 (0) backup_2021-09-10-0615_UAway_22b275019f96-db-table-wp_commentmeta.table.gz (16/252/fopen): adding to final database dump
+0041.239 (0) backup_2021-09-10-0615_UAway_22b275019f96-db-table-wp_comments.table.tmpr2.gz (17/252/fopen): adding to final database dump
+0041.241 (0) backup_2021-09-10-0615_UAway_22b275019f96-db-table-wp_comments.table.gz (18/252/fopen): adding to final database dump
+0041.242 (0) backup_2021-09-10-0615_UAway_22b275019f96-db-table-wp_links.table.tmpr0.gz (19/252/fopen): adding to final database dump
+0041.244 (0) backup_2021-09-10-0615_UAway_22b275019f96-db-table-wp_links.table.gz (20/252/fopen): adding to final database dump
+0041.245 (0) backup_2021-09-10-0615_UAway_22b275019f96-db-table-wp_postmeta.table.tmpr3689.gz (21/252/fopen): adding to final database dump
+0041.278 (0) backup_2021-09-10-0615_UAway_22b275019f96-db-table-wp_postmeta.table.gz (22/252/fopen): adding to final database dump
+0041.281 (0) backup_2021-09-10-0615_UAway_22b275019f96-db-table-wp_posts.table.tmpr1251.gz (23/252/fopen): adding to final database dump
+0041.285 (0) backup_2021-09-10-0615_UAway_22b275019f96-db-table-wp_posts.table.gz (24/252/fopen): adding to final database dump
+0041.287 (0) backup_2021-09-10-0615_UAway_22b275019f96-db-table-wp_term_relationships.table.tmpr100001.gz (25/252/fopen): adding to final database dump
+0041.289 (0) backup_2021-09-10-0615_UAway_22b275019f96-db-table-wp_term_relationships.table.gz (26/252/fopen): adding to final database dump
+0041.290 (0) backup_2021-09-10-0615_UAway_22b275019f96-db-table-wp_term_taxonomy.table.tmpr374.gz (27/252/fopen): adding to final database dump
+0041.292 (0) backup_2021-09-10-0615_UAway_22b275019f96-db-table-wp_term_taxonomy.table.gz (28/252/fopen): adding to final database dump
+0041.293 (0) backup_2021-09-10-0615_UAway_22b275019f96-db-table-wp_termmeta.table.tmpr367.gz (29/252/fopen): adding to final database dump
+0041.294 (0) backup_2021-09-10-0615_UAway_22b275019f96-db-table-wp_termmeta.table.gz (30/252/fopen): adding to final database dump
+0041.296 (0) backup_2021-09-10-0615_UAway_22b275019f96-db-table-wp_terms.table.tmpr374.gz (31/252/fopen): adding to final database dump
+0041.297 (0) backup_2021-09-10-0615_UAway_22b275019f96-db-table-wp_terms.table.gz (32/252/fopen): adding to final database dump
+0041.298 (0) backup_2021-09-10-0615_UAway_22b275019f96-db-table-wp_aioseo_notifications.table.tmpr0.gz (33/252/fopen): adding to final database dump
+0041.300 (0) backup_2021-09-10-0615_UAway_22b275019f96-db-table-wp_aioseo_notifications.table.gz (34/252/fopen): adding to final database dump
+0041.301 (0) backup_2021-09-10-0615_UAway_22b275019f96-db-table-wp_aioseo_posts.table.tmpr0.gz (35/252/fopen): adding to final database dump
+0041.302 (0) backup_2021-09-10-0615_UAway_22b275019f96-db-table-wp_aioseo_posts.table.gz (36/252/fopen): adding to final database dump
+0041.304 (0) backup_2021-09-10-0615_UAway_22b275019f96-db-table-wp_duplicator_packages.table.tmpr0.gz (37/252/fopen): adding to final database dump
+0041.305 (0) backup_2021-09-10-0615_UAway_22b275019f96-db-table-wp_duplicator_packages.table.gz (38/252/fopen): adding to final database dump
+0041.306 (0) backup_2021-09-10-0615_UAway_22b275019f96-db-table-wp_e_submissions.table.tmpr0.gz (39/252/fopen): adding to final database dump
+0041.308 (0) backup_2021-09-10-0615_UAway_22b275019f96-db-table-wp_e_submissions.table.gz (40/252/fopen): adding to final database dump
+0041.309 (0) backup_2021-09-10-0615_UAway_22b275019f96-db-table-wp_e_submissions_actions_log.table.tmpr0.gz (41/252/fopen): adding to final database dump
+0041.310 (0) backup_2021-09-10-0615_UAway_22b275019f96-db-table-wp_e_submissions_actions_log.table.gz (42/252/fopen): adding to final database dump
+0041.312 (0) backup_2021-09-10-0615_UAway_22b275019f96-db-table-wp_e_submissions_values.table.tmpr0.gz (43/252/fopen): adding to final database dump
+0041.313 (0) backup_2021-09-10-0615_UAway_22b275019f96-db-table-wp_e_submissions_values.table.gz (44/252/fopen): adding to final database dump
+0041.314 (0) backup_2021-09-10-0615_UAway_22b275019f96-db-table-wp_lead_form.table.tmpr2.gz (45/252/fopen): adding to final database dump
+0041.316 (0) backup_2021-09-10-0615_UAway_22b275019f96-db-table-wp_lead_form.table.gz (46/252/fopen): adding to final database dump
+0041.317 (0) backup_2021-09-10-0615_UAway_22b275019f96-db-table-wp_lead_form_data.table.tmpr4.gz (47/252/fopen): adding to final database dump
+0041.318 (0) backup_2021-09-10-0615_UAway_22b275019f96-db-table-wp_lead_form_data.table.gz (48/252/fopen): adding to final database dump
+0041.320 (0) backup_2021-09-10-0615_UAway_22b275019f96-db-table-wp_lead_form_extension.table.tmpr0.gz (49/252/fopen): adding to final database dump
+0041.321 (0) backup_2021-09-10-0615_UAway_22b275019f96-db-table-wp_lead_form_extension.table.gz (50/252/fopen): adding to final database dump
+0041.322 (0) backup_2021-09-10-0615_UAway_22b275019f96-db-table-wp_lead_form_options.table.tmpr0.gz (51/252/fopen): adding to final database dump
+0041.324 (0) backup_2021-09-10-0615_UAway_22b275019f96-db-table-wp_lead_form_options.table.gz (52/252/fopen): adding to final database dump
+0041.325 (0) backup_2021-09-10-0615_UAway_22b275019f96-db-table-wp_revisr.table.tmpr0.gz (53/252/fopen): adding to final database dump
+0041.326 (0) backup_2021-09-10-0615_UAway_22b275019f96-db-table-wp_revisr.table.gz (54/252/fopen): adding to final database dump
+0041.328 (0) backup_2021-09-10-0615_UAway_22b275019f96-db-table-wp_th_popup.table.tmpr0.gz (55/252/fopen): adding to final database dump
+0041.329 (0) backup_2021-09-10-0615_UAway_22b275019f96-db-table-wp_th_popup.table.gz (56/252/fopen): adding to final database dump
+0041.330 (0) backup_2021-09-10-0615_UAway_22b275019f96-db-table-wp_wc_admin_note_actions.table.tmpr79.gz (57/252/fopen): adding to final database dump
+0041.332 (0) backup_2021-09-10-0615_UAway_22b275019f96-db-table-wp_wc_admin_note_actions.table.gz (58/252/fopen): adding to final database dump
+0041.333 (0) backup_2021-09-10-0615_UAway_22b275019f96-db-table-wp_wc_admin_notes.table.tmpr39.gz (59/252/fopen): adding to final database dump
+0041.334 (0) backup_2021-09-10-0615_UAway_22b275019f96-db-table-wp_wc_admin_notes.table.gz (60/252/fopen): adding to final database dump
+0041.336 (0) backup_2021-09-10-0615_UAway_22b275019f96-db-table-wp_wc_category_lookup.table.tmpr1001.gz (61/252/fopen): adding to final database dump
+0041.337 (0) backup_2021-09-10-0615_UAway_22b275019f96-db-table-wp_wc_category_lookup.table.gz (62/252/fopen): adding to final database dump
+0041.338 (0) backup_2021-09-10-0615_UAway_22b275019f96-db-table-wp_wc_customer_lookup.table.tmpr0.gz (63/252/fopen): adding to final database dump
+0041.340 (0) backup_2021-09-10-0615_UAway_22b275019f96-db-table-wp_wc_customer_lookup.table.gz (64/252/fopen): adding to final database dump
+0041.341 (0) backup_2021-09-10-0615_UAway_22b275019f96-db-table-wp_wc_download_log.table.tmpr0.gz (65/252/fopen): adding to final database dump
+0041.342 (0) backup_2021-09-10-0615_UAway_22b275019f96-db-table-wp_wc_download_log.table.gz (66/252/fopen): adding to final database dump
+0041.344 (0) backup_2021-09-10-0615_UAway_22b275019f96-db-table-wp_wc_order_coupon_lookup.table.tmpr1.gz (67/252/fopen): adding to final database dump
+0041.345 (0) backup_2021-09-10-0615_UAway_22b275019f96-db-table-wp_wc_order_coupon_lookup.table.gz (68/252/fopen): adding to final database dump
+0041.346 (0) backup_2021-09-10-0615_UAway_22b275019f96-db-table-wp_wc_order_product_lookup.table.tmpr0.gz (69/252/fopen): adding to final database dump
+0041.348 (0) backup_2021-09-10-0615_UAway_22b275019f96-db-table-wp_wc_order_product_lookup.table.gz (70/252/fopen): adding to final database dump
+0041.349 (0) backup_2021-09-10-0615_UAway_22b275019f96-db-table-wp_wc_order_stats.table.tmpr0.gz (71/252/fopen): adding to final database dump
+0041.350 (0) backup_2021-09-10-0615_UAway_22b275019f96-db-table-wp_wc_order_stats.table.gz (72/252/fopen): adding to final database dump
+0041.353 (0) backup_2021-09-10-0615_UAway_22b275019f96-db-table-wp_wc_order_tax_lookup.table.tmpr1.gz (73/252/fopen): adding to final database dump
+0041.354 (0) backup_2021-09-10-0615_UAway_22b275019f96-db-table-wp_wc_order_tax_lookup.table.gz (74/252/fopen): adding to final database dump
+0041.355 (0) backup_2021-09-10-0615_UAway_22b275019f96-db-table-wp_wc_product_meta_lookup.table.tmpr0.gz (75/252/fopen): adding to final database dump
+0041.357 (0) backup_2021-09-10-0615_UAway_22b275019f96-db-table-wp_wc_product_meta_lookup.table.gz (76/252/fopen): adding to final database dump
+0041.358 (0) backup_2021-09-10-0615_UAway_22b275019f96-db-table-wp_wc_reserved_stock.table.tmpr1.gz (77/252/fopen): adding to final database dump
+0041.360 (0) backup_2021-09-10-0615_UAway_22b275019f96-db-table-wp_wc_reserved_stock.table.gz (78/252/fopen): adding to final database dump
+0041.361 (0) backup_2021-09-10-0615_UAway_22b275019f96-db-table-wp_wc_tax_rate_classes.table.tmpr3.gz (79/252/fopen): adding to final database dump
+0041.362 (0) backup_2021-09-10-0615_UAway_22b275019f96-db-table-wp_wc_tax_rate_classes.table.gz (80/252/fopen): adding to final database dump
+0041.364 (0) backup_2021-09-10-0615_UAway_22b275019f96-db-table-wp_wc_webhooks.table.tmpr0.gz (81/252/fopen): adding to final database dump
+0041.365 (0) backup_2021-09-10-0615_UAway_22b275019f96-db-table-wp_wc_webhooks.table.gz (82/252/fopen): adding to final database dump
+0041.366 (0) backup_2021-09-10-0615_UAway_22b275019f96-db-table-wp_wfblockediplog.table.tmpr1.gz (83/252/fopen): adding to final database dump
+0041.369 (0) backup_2021-09-10-0615_UAway_22b275019f96-db-table-wp_wfblockediplog.table.gz (84/252/fopen): adding to final database dump
+0041.370 (0) backup_2021-09-10-0615_UAway_22b275019f96-db-table-wp_wfblocks7.table.tmpr0.gz (85/252/fopen): adding to final database dump
+0041.372 (0) backup_2021-09-10-0615_UAway_22b275019f96-db-table-wp_wfblocks7.table.gz (86/252/fopen): adding to final database dump
+0041.373 (0) backup_2021-09-10-0615_UAway_22b275019f96-db-table-wp_wfconfig.table.tmpr1001.gz (87/252/fopen): adding to final database dump
+0041.375 (0) backup_2021-09-10-0615_UAway_22b275019f96-db-table-wp_wfconfig.table.gz (88/252/fopen): adding to final database dump
+0041.377 (0) backup_2021-09-10-0615_UAway_22b275019f96-db-table-wp_wfcrawlers.table.tmpr1.gz (89/252/fopen): adding to final database dump
+0041.378 (0) backup_2021-09-10-0615_UAway_22b275019f96-db-table-wp_wfcrawlers.table.gz (90/252/fopen): adding to final database dump
+0041.379 (0) backup_2021-09-10-0615_UAway_22b275019f96-db-table-wp_wffilechanges.table.tmpr1.gz (91/252/fopen): adding to final database dump
+0041.381 (0) backup_2021-09-10-0615_UAway_22b275019f96-db-table-wp_wffilechanges.table.gz (92/252/fopen): adding to final database dump
+0041.382 (0) backup_2021-09-10-0615_UAway_22b275019f96-db-table-wp_wffilemods.table.tmpr1.gz (93/252/fopen): adding to final database dump
+0041.385 (0) backup_2021-09-10-0615_UAway_22b275019f96-db-table-wp_wffilemods.table.gz (94/252/fopen): adding to final database dump
+0041.386 (0) backup_2021-09-10-0615_UAway_22b275019f96-db-table-wp_wfhits.table.tmpr2.gz (95/252/fopen): adding to final database dump
+0041.388 (0) backup_2021-09-10-0615_UAway_22b275019f96-db-table-wp_wfhits.table.gz (96/252/fopen): adding to final database dump
+0041.389 (0) backup_2021-09-10-0615_UAway_22b275019f96-db-table-wp_wfhoover.table.tmpr0.gz (97/252/fopen): adding to final database dump
+0041.390 (0) backup_2021-09-10-0615_UAway_22b275019f96-db-table-wp_wfhoover.table.gz (98/252/fopen): adding to final database dump
+0041.392 (0) backup_2021-09-10-0615_UAway_22b275019f96-db-table-wp_wfissues.table.tmpr2.gz (99/252/fopen): adding to final database dump
+0041.395 (0) backup_2021-09-10-0615_UAway_22b275019f96-db-table-wp_wfissues.table.gz (100/252/fopen): adding to final database dump
+0041.397 (0) backup_2021-09-10-0615_UAway_22b275019f96-db-table-wp_wfknownfilelist.table.tmpr0.gz (101/252/fopen): adding to final database dump
+0041.398 (0) backup_2021-09-10-0615_UAway_22b275019f96-db-table-wp_wfknownfilelist.table.gz (102/252/fopen): adding to final database dump
+0041.400 (0) backup_2021-09-10-0615_UAway_22b275019f96-db-table-wp_wflivetraffichuman.table.tmpr1.gz (103/252/fopen): adding to final database dump
+0041.401 (0) backup_2021-09-10-0615_UAway_22b275019f96-db-table-wp_wflivetraffichuman.table.gz (104/252/fopen): adding to final database dump
+0041.402 (0) backup_2021-09-10-0615_UAway_22b275019f96-db-table-wp_wflocs.table.tmpr1001.gz (105/252/fopen): adding to final database dump
+0041.404 (0) backup_2021-09-10-0615_UAway_22b275019f96-db-table-wp_wflocs.table.gz (106/252/fopen): adding to final database dump
+0041.406 (0) backup_2021-09-10-0615_UAway_22b275019f96-db-table-wp_wflogins.table.tmpr2.gz (107/252/fopen): adding to final database dump
+0041.407 (0) backup_2021-09-10-0615_UAway_22b275019f96-db-table-wp_wflogins.table.gz (108/252/fopen): adding to final database dump
+0041.409 (0) backup_2021-09-10-0615_UAway_22b275019f96-db-table-wp_wfls_2fa_secrets.table.tmpr0.gz (109/252/fopen): adding to final database dump
+0041.410 (0) backup_2021-09-10-0615_UAway_22b275019f96-db-table-wp_wfls_2fa_secrets.table.gz (110/252/fopen): adding to final database dump
+0041.412 (0) backup_2021-09-10-0615_UAway_22b275019f96-db-table-wp_wfls_settings.table.tmpr1001.gz (111/252/fopen): adding to final database dump
+0041.413 (0) backup_2021-09-10-0615_UAway_22b275019f96-db-table-wp_wfls_settings.table.gz (112/252/fopen): adding to final database dump
+0041.414 (0) backup_2021-09-10-0615_UAway_22b275019f96-db-table-wp_wfnotifications.table.tmpr1001.gz (113/252/fopen): adding to final database dump
+0041.417 (0) backup_2021-09-10-0615_UAway_22b275019f96-db-table-wp_wfnotifications.table.gz (114/252/fopen): adding to final database dump
+0041.418 (0) backup_2021-09-10-0615_UAway_22b275019f96-db-table-wp_wfpendingissues.table.tmpr0.gz (115/252/fopen): adding to final database dump
+0041.419 (0) backup_2021-09-10-0615_UAway_22b275019f96-db-table-wp_wfpendingissues.table.gz (116/252/fopen): adding to final database dump
+0041.421 (0) backup_2021-09-10-0615_UAway_22b275019f96-db-table-wp_wfreversecache.table.tmpr1001.gz (117/252/fopen): adding to final database dump
+0041.422 (0) backup_2021-09-10-0615_UAway_22b275019f96-db-table-wp_wfreversecache.table.gz (118/252/fopen): adding to final database dump
+0041.424 (0) backup_2021-09-10-0615_UAway_22b275019f96-db-table-wp_wfsnipcache.table.tmpr0.gz (119/252/fopen): adding to final database dump
+0041.425 (0) backup_2021-09-10-0615_UAway_22b275019f96-db-table-wp_wfsnipcache.table.gz (120/252/fopen): adding to final database dump
+0041.426 (0) backup_2021-09-10-0615_UAway_22b275019f96-db-table-wp_wfstatus.table.tmpr11.gz (121/252/fopen): adding to final database dump
+0041.428 (0) backup_2021-09-10-0615_UAway_22b275019f96-db-table-wp_wfstatus.table.gz (122/252/fopen): adding to final database dump
+0041.429 (0) backup_2021-09-10-0615_UAway_22b275019f96-db-table-wp_wftrafficrates.table.tmpr1.gz (123/252/fopen): adding to final database dump
+0041.430 (0) backup_2021-09-10-0615_UAway_22b275019f96-db-table-wp_wftrafficrates.table.gz (124/252/fopen): adding to final database dump
+0041.432 (0) backup_2021-09-10-0615_UAway_22b275019f96-db-table-wp_woocommerce_api_keys.table.tmpr0.gz (125/252/fopen): adding to final database dump
+0041.433 (0) backup_2021-09-10-0615_UAway_22b275019f96-db-table-wp_woocommerce_api_keys.table.gz (126/252/fopen): adding to final database dump
+0041.434 (0) backup_2021-09-10-0615_UAway_22b275019f96-db-table-wp_woocommerce_attribute_taxonomies.table.tmpr0.gz (127/252/fopen): adding to final database dump
+0041.436 (0) backup_2021-09-10-0615_UAway_22b275019f96-db-table-wp_woocommerce_attribute_taxonomies.table.gz (128/252/fopen): adding to final database dump
+0041.437 (0) backup_2021-09-10-0615_UAway_22b275019f96-db-table-wp_woocommerce_downloadable_product_permissions.table.tmpr0.gz (129/252/fopen): adding to final database dump
+0041.438 (0) backup_2021-09-10-0615_UAway_22b275019f96-db-table-wp_woocommerce_downloadable_product_permissions.table.gz (130/252/fopen): adding to final database dump
+0041.441 (0) backup_2021-09-10-0615_UAway_22b275019f96-db-table-wp_woocommerce_log.table.tmpr0.gz (131/252/fopen): adding to final database dump
+0041.441 (0) backup_2021-09-10-0615_UAway_22b275019f96-db-table-wp_woocommerce_log.table.gz (132/252/fopen): adding to final database dump
+0041.442 (0) backup_2021-09-10-0615_UAway_22b275019f96-db-table-wp_woocommerce_order_itemmeta.table.tmpr0.gz (133/252/fopen): adding to final database dump
+0041.444 (0) backup_2021-09-10-0615_UAway_22b275019f96-db-table-wp_woocommerce_order_itemmeta.table.gz (134/252/fopen): adding to final database dump
+0041.445 (0) backup_2021-09-10-0615_UAway_22b275019f96-db-table-wp_woocommerce_order_items.table.tmpr0.gz (135/252/fopen): adding to final database dump
+0041.446 (0) backup_2021-09-10-0615_UAway_22b275019f96-db-table-wp_woocommerce_order_items.table.gz (136/252/fopen): adding to final database dump
+0041.448 (0) backup_2021-09-10-0615_UAway_22b275019f96-db-table-wp_woocommerce_payment_tokenmeta.table.tmpr0.gz (137/252/fopen): adding to final database dump
+0041.449 (0) backup_2021-09-10-0615_UAway_22b275019f96-db-table-wp_woocommerce_payment_tokenmeta.table.gz (138/252/fopen): adding to final database dump
+0041.450 (0) backup_2021-09-10-0615_UAway_22b275019f96-db-table-wp_woocommerce_payment_tokens.table.tmpr0.gz (139/252/fopen): adding to final database dump
+0041.452 (0) backup_2021-09-10-0615_UAway_22b275019f96-db-table-wp_woocommerce_payment_tokens.table.gz (140/252/fopen): adding to final database dump
+0041.453 (0) backup_2021-09-10-0615_UAway_22b275019f96-db-table-wp_woocommerce_sessions.table.tmpr4.gz (141/252/fopen): adding to final database dump
+0041.454 (0) backup_2021-09-10-0615_UAway_22b275019f96-db-table-wp_woocommerce_sessions.table.gz (142/252/fopen): adding to final database dump
+0041.456 (0) backup_2021-09-10-0615_UAway_22b275019f96-db-table-wp_woocommerce_shipping_zone_locations.table.tmpr0.gz (143/252/fopen): adding to final database dump
+0041.457 (0) backup_2021-09-10-0615_UAway_22b275019f96-db-table-wp_woocommerce_shipping_zone_locations.table.gz (144/252/fopen): adding to final database dump
+0041.458 (0) backup_2021-09-10-0615_UAway_22b275019f96-db-table-wp_woocommerce_shipping_zone_methods.table.tmpr0.gz (145/252/fopen): adding to final database dump
+0041.460 (0) backup_2021-09-10-0615_UAway_22b275019f96-db-table-wp_woocommerce_shipping_zone_methods.table.gz (146/252/fopen): adding to final database dump
+0041.461 (0) backup_2021-09-10-0615_UAway_22b275019f96-db-table-wp_woocommerce_shipping_zones.table.tmpr0.gz (147/252/fopen): adding to final database dump
+0041.462 (0) backup_2021-09-10-0615_UAway_22b275019f96-db-table-wp_woocommerce_shipping_zones.table.gz (148/252/fopen): adding to final database dump
+0041.464 (0) backup_2021-09-10-0615_UAway_22b275019f96-db-table-wp_woocommerce_tax_rate_locations.table.tmpr0.gz (149/252/fopen): adding to final database dump
+0041.465 (0) backup_2021-09-10-0615_UAway_22b275019f96-db-table-wp_woocommerce_tax_rate_locations.table.gz (150/252/fopen): adding to final database dump
+0041.466 (0) backup_2021-09-10-0615_UAway_22b275019f96-db-table-wp_woocommerce_tax_rates.table.tmpr0.gz (151/252/fopen): adding to final database dump
+0041.468 (0) backup_2021-09-10-0615_UAway_22b275019f96-db-table-wp_woocommerce_tax_rates.table.gz (152/252/fopen): adding to final database dump
+0041.469 (0) backup_2021-09-10-0615_UAway_22b275019f96-db-table-wp_wpda_csv_uploads.table.tmpr2.gz (153/252/fopen): adding to final database dump
+0041.470 (0) backup_2021-09-10-0615_UAway_22b275019f96-db-table-wp_wpda_csv_uploads.table.gz (154/252/fopen): adding to final database dump
+0041.471 (0) backup_2021-09-10-0615_UAway_22b275019f96-db-table-wp_wpda_logging.table.tmpr1.gz (155/252/fopen): adding to final database dump
+0041.473 (0) backup_2021-09-10-0615_UAway_22b275019f96-db-table-wp_wpda_logging.table.gz (156/252/fopen): adding to final database dump
+0041.474 (0) backup_2021-09-10-0615_UAway_22b275019f96-db-table-wp_wpda_media.table.tmpr1.gz (157/252/fopen): adding to final database dump
+0041.475 (0) backup_2021-09-10-0615_UAway_22b275019f96-db-table-wp_wpda_media.table.gz (158/252/fopen): adding to final database dump
+0041.477 (0) backup_2021-09-10-0615_UAway_22b275019f96-db-table-wp_wpda_menus.table.tmpr0.gz (159/252/fopen): adding to final database dump
+0041.478 (0) backup_2021-09-10-0615_UAway_22b275019f96-db-table-wp_wpda_menus.table.gz (160/252/fopen): adding to final database dump
+0041.479 (0) backup_2021-09-10-0615_UAway_22b275019f96-db-table-wp_wpda_project.table.tmpr0.gz (161/252/fopen): adding to final database dump
+0041.481 (0) backup_2021-09-10-0615_UAway_22b275019f96-db-table-wp_wpda_project.table.gz (162/252/fopen): adding to final database dump
+0041.482 (0) backup_2021-09-10-0615_UAway_22b275019f96-db-table-wp_wpda_project_page.table.tmpr0.gz (163/252/fopen): adding to final database dump
+0041.483 (0) backup_2021-09-10-0615_UAway_22b275019f96-db-table-wp_wpda_project_page.table.gz (164/252/fopen): adding to final database dump
+0041.485 (0) backup_2021-09-10-0615_UAway_22b275019f96-db-table-wp_wpda_project_table.table.tmpr1.gz (165/252/fopen): adding to final database dump
+0041.486 (0) backup_2021-09-10-0615_UAway_22b275019f96-db-table-wp_wpda_project_table.table.gz (166/252/fopen): adding to final database dump
+0041.487 (0) backup_2021-09-10-0615_UAway_22b275019f96-db-table-wp_wpda_publisher.table.tmpr0.gz (167/252/fopen): adding to final database dump
+0041.489 (0) backup_2021-09-10-0615_UAway_22b275019f96-db-table-wp_wpda_publisher.table.gz (168/252/fopen): adding to final database dump
+0041.489 (0) backup_2021-09-10-0615_UAway_22b275019f96-db-table-wp_wpda_table_design.table.tmpr1001.gz (169/252/fopen): adding to final database dump
+0041.491 (0) backup_2021-09-10-0615_UAway_22b275019f96-db-table-wp_wpda_table_design.table.gz (170/252/fopen): adding to final database dump
+0041.493 (0) backup_2021-09-10-0615_UAway_22b275019f96-db-table-wp_wpda_table_settings.table.tmpr1.gz (171/252/fopen): adding to final database dump
+0041.494 (0) backup_2021-09-10-0615_UAway_22b275019f96-db-table-wp_wpda_table_settings.table.gz (172/252/fopen): adding to final database dump
+0041.495 (0) backup_2021-09-10-0615_UAway_22b275019f96-db-table-wp_wpforms_tasks_meta.table.tmpr13.gz (173/252/fopen): adding to final database dump
+0041.497 (0) backup_2021-09-10-0615_UAway_22b275019f96-db-table-wp_wpforms_tasks_meta.table.gz (174/252/fopen): adding to final database dump
+0041.498 (0) backup_2021-09-10-0615_UAway_22b275019f96-db-table-wp_wpgmza.table.tmpr15.gz (175/252/fopen): adding to final database dump
+0041.499 (0) backup_2021-09-10-0615_UAway_22b275019f96-db-table-wp_wpgmza.table.gz (176/252/fopen): adding to final database dump
+0041.501 (0) backup_2021-09-10-0615_UAway_22b275019f96-db-table-wp_wpgmza_circles.table.tmpr0.gz (177/252/fopen): adding to final database dump
+0041.502 (0) backup_2021-09-10-0615_UAway_22b275019f96-db-table-wp_wpgmza_circles.table.gz (178/252/fopen): adding to final database dump
+0041.503 (0) backup_2021-09-10-0615_UAway_22b275019f96-db-table-wp_wpgmza_maps.table.tmpr2.gz (179/252/fopen): adding to final database dump
+0041.505 (0) backup_2021-09-10-0615_UAway_22b275019f96-db-table-wp_wpgmza_maps.table.gz (180/252/fopen): adding to final database dump
+0041.506 (0) backup_2021-09-10-0615_UAway_22b275019f96-db-table-wp_wpgmza_polygon.table.tmpr0.gz (181/252/fopen): adding to final database dump
+0041.509 (0) backup_2021-09-10-0615_UAway_22b275019f96-db-table-wp_wpgmza_polygon.table.gz (182/252/fopen): adding to final database dump
+0041.510 (0) backup_2021-09-10-0615_UAway_22b275019f96-db-table-wp_wpgmza_polylines.table.tmpr0.gz (183/252/fopen): adding to final database dump
+0041.511 (0) backup_2021-09-10-0615_UAway_22b275019f96-db-table-wp_wpgmza_polylines.table.gz (184/252/fopen): adding to final database dump
+0041.513 (0) backup_2021-09-10-0615_UAway_22b275019f96-db-table-wp_wpgmza_rectangles.table.tmpr0.gz (185/252/fopen): adding to final database dump
+0041.514 (0) backup_2021-09-10-0615_UAway_22b275019f96-db-table-wp_wpgmza_rectangles.table.gz (186/252/fopen): adding to final database dump
+0041.516 (0) backup_2021-09-10-0615_UAway_22b275019f96-db-table-wp_xyz_ips_short_code.table.tmpr4.gz (187/252/fopen): adding to final database dump
+0041.517 (0) backup_2021-09-10-0615_UAway_22b275019f96-db-table-wp_xyz_ips_short_code.table.gz (188/252/fopen): adding to final database dump
+0041.530 (0) backup_2021-09-10-0615_UAway_22b275019f96-db.gz: finished writing out complete database file (3908.7 KB)
+0041.587 (0) Total database tables backed up: 94 (backup_2021-09-10-0615_UAway_22b275019f96-db.gz, size: 4002599, sha1: d90c090ddb493499dd3e38a5d8a2c76a4daab8e6, sha256: 30d70b9595931d0f6e6eafbca13f807d7542dc60fb100cbf4b2806f23ff930d0)
+0041.595 (0) backup_2021-09-10-0615_UAway_22b275019f96-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0041.597 (0) backup_2021-09-10-0615_UAway_22b275019f96-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0041.598 (0) backup_2021-09-10-0615_UAway_22b275019f96-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0041.600 (0) backup_2021-09-10-0615_UAway_22b275019f96-others.zip: others: This file has not yet been successfully uploaded: will queue
+0041.601 (0) backup_2021-09-10-0615_UAway_22b275019f96-db.gz: db: This file has not yet been successfully uploaded: will queue
+0041.602 (0) Saving backup history. Total backup size: 147.8 MB
+0041.606 (0) Requesting upload of the files that have not yet been successfully uploaded (5)
+0041.609 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0041.610 (0) No remote despatch: user chose no remote backup service
+0041.612 (0) Recording as successfully uploaded: backup_2021-09-10-0615_UAway_22b275019f96-plugins.zip
+0041.615 (0) Recording as successfully uploaded: backup_2021-09-10-0615_UAway_22b275019f96-themes.zip
+0041.618 (0) Recording as successfully uploaded: backup_2021-09-10-0615_UAway_22b275019f96-uploads.zip
+0041.621 (0) Recording as successfully uploaded: backup_2021-09-10-0615_UAway_22b275019f96-others.zip
+0041.623 (0) Recording as successfully uploaded: backup_2021-09-10-0615_UAway_22b275019f96-db.gz
+0041.627 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0041.629 (0) Number of backup sets in history: 3; groups (db): 1
+0041.630 (0) Examining (for databases) backup set with group_id=0, nonce=22b275019f96, datestamp=1631254536 (Sep 10 2021 06:15:36)
+0041.631 (0) This backup set is the backup set just made, so will not be deleted.
+0041.631 (0) Examining (for databases) backup set with group_id=0, nonce=9c1c985cc290, datestamp=1630947058 (Sep 06 2021 16:50:58)
+0041.631 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0041.632 (0) Examining (for databases) backup set with group_id=0, nonce=525f264be62d, datestamp=1630922936 (Sep 06 2021 10:08:56)
+0041.632 (0) 1630922936: db: this set includes a database (backup_2021-09-06-1008_UAway_525f264be62d-db.gz); db count is now 2
+0041.632 (0) 1630922936: db: over retain limit (2); will delete this database
+0041.632 (0) Delete file: backup_2021-09-06-1008_UAway_525f264be62d-db.gz, service=none
+0041.633 (0) Deleting local copy (backup_2021-09-06-1008_UAway_525f264be62d-db.gz)
+0041.638 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0041.639 (0) Number of backup sets in history: 3; groups (files): 1
+0041.640 (0) Examining (for files) backup set with nonce=22b275019f96, datestamp=1631254536 (Sep 10 2021 06:15:36)
+0041.640 (0) This backup set is the backup set just made, so will not be deleted.
+0041.640 (0) This backup set is the backup set just made, so will not be deleted.
+0041.641 (0) This backup set is the backup set just made, so will not be deleted.
+0041.641 (0) This backup set is the backup set just made, so will not be deleted.
+0041.641 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0041.642 (0) Examining (for files) backup set with nonce=9c1c985cc290, datestamp=1630947058 (Sep 06 2021 16:50:58)
+0041.642 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0041.642 (0) Examining (for files) backup set with nonce=525f264be62d, datestamp=1630922936 (Sep 06 2021 10:08:56)
+0041.642 (0) plugins: over retain limit (2); will delete this file entity
+0041.642 (0) themes: over retain limit (2); will delete this file entity
+0041.642 (0) uploads: over retain limit (2); will delete this file entity
+0041.642 (0) others: over retain limit (2); will delete this file entity
+0041.642 (0) Delete file: backup_2021-09-06-1008_UAway_525f264be62d-plugins.zip, service=none
+0041.643 (0) Deleting local copy (backup_2021-09-06-1008_UAway_525f264be62d-plugins.zip)
+0041.665 (0) Delete file: backup_2021-09-06-1008_UAway_525f264be62d-themes.zip, service=none
+0041.668 (0) Deleting local copy (backup_2021-09-06-1008_UAway_525f264be62d-themes.zip)
+0041.669 (0) Delete file: backup_2021-09-06-1008_UAway_525f264be62d-uploads.zip, service=none
+0041.670 (0) Deleting local copy (backup_2021-09-06-1008_UAway_525f264be62d-uploads.zip)
+0041.673 (0) Delete file: backup_2021-09-06-1008_UAway_525f264be62d-others.zip, service=none
+0041.674 (0) Deleting local copy (backup_2021-09-06-1008_UAway_525f264be62d-others.zip)
+0041.696 (0) This backup set is now empty; will remove from history
+0041.699 (0) Deleting log file (log.525f264be62d.txt)
+0041.721 (0) Retain: saving new backup history (sets now: 2) and finishing retain operation
+0041.727 (0) Resume backup (22b275019f96, 0): finish run
+0041.733 (0) Decremented the semaphore (fd) by 1
+0041.734 (0) Semaphore (fd) unlocked
+0041.737 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0041.742 (0) No email will/can be sent - the user has not configured an email address.
+0041.743 (0) The backup apparently succeeded and is now complete

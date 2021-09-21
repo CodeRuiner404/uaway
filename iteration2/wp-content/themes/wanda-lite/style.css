@@ -1,0 +1,448 @@
+/**
+
+Theme Name: Wanda Lite
+Description: Wanda Lite is a child theme of Sheeba Lite WordPress theme, optimized to work with WooCommerce e-commerce plugin. Wanda Lite WordPress theme offers an optional header image and header banner, new grid layout on homepage, new layout for post comments and new Google Fonts.
+Author: ThemeinProgress.
+Author URI: https://www.themeinprogress.com
+Version: 1.0.9
+Requires PHP: 5.3
+Tested up to: 5.7
+Template: sheeba-lite
+Tags: custom-background, custom-header, custom-colors, custom-logo, custom-menu, featured-images, footer-widgets, post-formats, right-sidebar, sticky-post, theme-options, threaded-comments, translation-ready, one-column, two-columns, three-columns, four-columns, grid-layout, blog, e-commerce, news
+Text Domain: wanda-lite
+Domain Path: /languages
+License: GNU General Public License v3 or later
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Sheeba Lite Child WordPress Theme is a child theme of Sheeba Lite, Copyright 2021 ThemeinProgress.
+Sheeba Lite Child is distributed under the terms of the GNU GPLv3.
+Sheeba Lite WordPress Theme, Copyright 2021 ThemeinProgress.
+Sheeba Lite is distributed under the terms of the GNU GPLv3.
+
+*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+h1.title a,
+h2.title a,
+h3.title a,
+h4.title a,
+h5.title a,
+h6.title a,
+h1.product-title a ,
+h3.product-title a ,
+h4.product-title a {
+	font-family: 'Playfair Display', serif;
+}
+
+/* ===============================================
+   LOGO
+   =============================================== */
+
+#logo {
+    position: relative;
+    text-align: left;
+    padding: 0;
+    font-size: initial;
+    word-break: break-all;
+	min-height:90px;
+}
+
+#logo a {
+	position: relative;
+}
+
+#logo a:hover {
+	text-decoration:none;
+	color:#d14a2b;
+	border-bottom:none;
+}
+
+#logo a.text-logo {
+	position: relative;
+	top: -10px;
+	font-size: 70px;
+	line-height: 70px;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #fff;
+	text-decoration: none;
+	text-align: left;
+	-webkit-transition: color .3s ease;
+	-moz-transition: color .3s ease;
+	-o-transition: color .3s ease;
+	transition: color .3s ease;
+}
+
+#logo a.text-logo span {
+    font-size: 12px;
+    display: block;
+    text-align: left;
+    line-height: initial;
+    margin-top: 10px;
+    margin-bottom: -10px;
+}
+
+.logo-container.col-md-12 #logo ,
+.logo-container.col-md-12 #logo a.text-logo ,
+.logo-container.col-md-12 #logo a.text-logo span {
+    text-align: center ;
+}
+
+/* ===============================================
+   LOGO WRAPPER
+   =============================================== */
+
+#logo-wrapper {
+    background-image: url(assets/images/header/header.jpg);
+	background-position:center;
+    padding: 90px 0 !important;
+    color: #fff;
+    width: 100%;
+    -webkit-background-size: cover!important;
+    -moz-background-size: cover!important;
+    -o-background-size: cover!important;
+    background-size: cover!important;
+}
+
+/* ===============================================
+   HEADER BANNER
+   =============================================== */
+
+.header-banner .post-container {
+	margin:0 0 25px 0
+}
+
+.header-banner .post-container:last-of-type {
+	margin:0
+}
+
+.header-banner .post-container .no-padding {
+	text-align:right;
+	margin:0;
+}
+
+/* ===============================================
+   MAIN MENU
+   =============================================== */
+
+nav.header-menu ul {
+    text-align: center;
+}
+
+nav.header-menu ul li {
+    display: inline-block;
+    float: none;
+}
+
+nav.header-menu ul li:first-of-type a {
+    padding-left: 12px;
+}
+
+/* ===============================================
+   CAROUSEL
+   =============================================== */
+
+.owl-carousel .owl-carousel-arrow {
+	background-color: #222;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+}
+
+.owl-carousel .owl-carousel-arrow span {
+    color: #fff;
+    line-height: 45px;
+}
+
+.owl-carousel .prev-arrow {
+	left: 30px;
+}
+
+.owl-carousel .next-arrow {
+	right: 30px;
+}
+
+/* ===============================================
+   BREADCRUMB
+   =============================================== */
+
+#breadcrumb_wrapper {
+    border-bottom: solid 1px #fff;
+}
+
+/* ===============================================
+   POST ARTICLE
+   =============================================== */
+
+.masonry .product-content,
+#blog .post-article,
+#header_sidebar .post-article ,
+#sidebar .post-article,
+#masonry .post-article {
+	background: #f9f9f9;
+	-moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+#top_sidebar {
+	background:#f9f9f9;
+}
+
+#bottom_sidebar {
+	background:#222;
+}
+
+#top_sidebar .post-article ,
+#bottom_sidebar .post-article ,
+#footer_sidebar .post-article {
+	background:none;
+}
+
+/* ===============================================
+   POST ARTICLE
+   =============================================== */
+
+#bottom_sidebar.sidebar-area p,
+#bottom_sidebar.sidebar-area li,
+#bottom_sidebar.sidebar-area address,
+#bottom_sidebar.sidebar-area dd,
+#bottom_sidebar.sidebar-area blockquote,
+#bottom_sidebar.sidebar-area td,
+#bottom_sidebar.sidebar-area th,
+#bottom_sidebar.sidebar-area span,
+#bottom_sidebar.sidebar-area .title,
+#bottom_sidebar .textwidget {
+	color:#fff;
+}
+
+
+/* ===============================================
+   POST ICON
+   =============================================== */
+
+.post .post-icon {
+	opacity:0;
+    left: 0;
+    bottom: 0;
+    margin: 0;
+    width: 100%;
+    border-radius: 0;
+    height: 100%;
+    background: #222;
+	-webkit-transition: opacity .3s ease;
+	-moz-transition: opacity .3s ease;
+	-o-transition: opacity .3s ease;
+	transition: opacity .3s ease;
+}
+
+.post .pin-container:hover .post-icon {
+	opacity:0.6;
+}
+
+.post .post-icon:before {
+    content: "\f464";
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+	color:#fff;
+	font-size:40px
+}
+
+/* ===============================================
+   POST AUTHOR
+   =============================================== */
+
+.author-box {
+    border: none;
+    margin-top: 30px;
+    background: #f9f9f9;
+    padding: 30px;
+    margin-bottom: 0;
+}
+
+/* ===============================================
+   POST COMMENTS
+   =============================================== */
+
+.comments-container {
+	background: #f9f9f9;
+	padding:30px;
+}
+
+#review_form_wrapper {
+	background: #f9f9f9;
+	padding:0 30px 30px 30px;
+}
+
+.comments-container h3.comments,
+.comments-container h3#reply-title {
+    margin: 0 0 15px 0;
+}
+
+.comments-container .comment-notes {
+    margin-bottom: 15px;
+}
+
+.comments-container .comment-form-cookies-consent {
+	text-align:center;
+}
+
+.comment-container {
+	padding:0;
+	background:none;
+	border:none !important;
+}
+
+.woocommerce .woocommerce-tabs .comment_container {
+    background: #f9f9f9;
+    border: none !important;
+}
+
+.comment-avatar,
+.woocommerce #reviews #comments ol.commentlist li .comment-avatar {
+    position: relative;
+    width: 110px;
+    float: left;
+}
+
+.woocommerce #reviews #comments ol.commentlist li img.avatar {
+	outline:none;
+}
+
+.comment-text {
+    position: relative;
+	background: #fff;
+    margin-left: 140px;
+    padding: 30px;
+    color: #333;
+}
+
+.woocommerce #reviews #comments ol.commentlist li .comment-text {
+    margin-left: 0;
+    float: right;
+	padding: 30px;
+}
+
+.comment-text:before,
+.woocommerce #reviews #comments ol.commentlist li .comment-text:before {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-right: 20px solid #fff;
+    top: 20px;
+    left: -20px;
+    z-index: 498;
+}
+
+.wpcf7-form input,
+.wpcf7-form select,
+.wpcf7-form textarea ,
+.woocommerce-product-search input[type=search],
+.contact-form input[type=text],
+.contact-form textarea ,
+.searchform input[type=text],
+.searchform textarea ,
+.comment-form input[type=text],
+.comment-form input[type=email],
+.comment-form textarea {
+	background:#fff;
+}
+
+.woocommerce .woocommerce-tabs .comment_container:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+/* ===============================================
+   PAGENAVI
+   =============================================== */
+
+.wp-pagenavi,
+.sheeba-pagination {
+	margin-bottom:30px;
+}
+
+.sheeba-pagination {
+	margin-top:30px;
+}
+
+.wp-pagenavi a,
+.wp-pagenavi a:link,
+.sheeba-pagination span {
+	background: #f9f9f9;
+}
+
+.wp-pagenavi a,
+.wp-pagenavi a:link,
+.wp-pagenavi span.current,
+.sheeba-pagination span {
+	-moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.wp-pagenavi a:hover,
+.sheeba-pagination span,
+.sheeba-pagination a span:hover,
+.wp-pagenavi span.current,
+.post-article .wp-pagenavi a:hover {
+    background: #d14a2b;
+}
+
+/* ===============================================
+   FOOTER
+   =============================================== */
+
+#footer {
+    color: #fff;
+    background: #222;
+}
+
+#footer .copyright p,
+#footer .copyright a,
+#footer .copyright span,
+#footer .copyright .title,
+#footer .copyright li,
+#footer .copyright address,
+#footer .copyright dd,
+#footer .copyright caption,
+#footer .copyright blockquote,
+#footer .copyright td,
+#footer .copyright th {
+	color:#fff;
+}
+
+.social-buttons a {
+	color:#fff !important;
+}
+
+#back-to-top span {
+    color: #fff;
+    background: #222;
+}
+
+@media screen and (min-width : 0px) and (max-width : 992px)  {
+
+	#logo {
+		margin-bottom:0;
+	}
+
+	.header-banner {
+		margin-top:25px;
+	}
+
+}

@@ -1,0 +1,138 @@
+/* === Radio Image Control === */
+
+.customize-control-radio-color input[type="radio"] {
+	clip:     rect(1px, 1px, 1px, 1px);
+	height:   1px;
+	overflow: hidden;
+	position: absolute !important;
+	width:    1px;
+}
+
+.customize-control-radio-color span.color-value {
+	box-sizing: border-box;
+	max-width:  100%;
+	height:     auto;
+	padding:    1px;
+	border:     4px solid transparent;
+}
+
+.customize-control-radio-color input:checked + span + span {
+	border-color: #00a0d2;
+}
+
+.customize-control-radio-color label {
+    margin-right: 5px;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+.customize-control-radio-color span.color-value {
+	width: 40px;
+	height: 40px;
+	display: inline-block;
+	outline: none;
+}
+
+.customize-control-radio-color span.color-value.custom-color-value {
+	background-image: repeating-linear-gradient( 45deg, yellow, yellow 15px, red 50px, red 15px );
+}
+
+li#customize-control-display_header_text span{
+    display: none;
+}
+
+/*Sortable*/
+ul.smooth-blog-sortable-list .smooth-blog-drag-handle{
+    float: right;
+    cursor: move;
+    margin-top: 0px;
+}
+ul.smooth-blog-sortable-list li{
+    padding: 7px;
+    border: 1px solid #e5e5e5;
+    background: #fafafa;
+}
+.sortable-hideme{
+    display: none !important;
+}
+.sortable-span{
+    border: none;
+    cursor: default !important;
+
+}
+
+.sortable-span:hover{
+    color:#000;
+}
+
+.smooth-blog-edit:hover {
+    cursor: pointer;
+}
+
+i.dashicons.dashicons-edit.smooth-blog-edit {
+    float: right;
+    margin-right: 15px;
+}
+
+#customize-control-smooth_blog_slider_setting .customize-inside-control-row,
+#customize-control-smooth_blog_about_setting .customize-inside-control-row,
+#customize-control-smooth_blog_blog_setting .customize-inside-control-row,
+#customize-control-smooth_blog_featured_setting .customize-inside-control-row,
+#customize-control-smooth_blog_masonary_setting .customize-inside-control-row,
+#customize-control-smooth_blog_related_setting .customize-inside-control-row,
+#customize-control-smooth_blog_video_setting .customize-inside-control-row,
+#customize-control-smooth_blog_service_setting .customize-inside-control-row,
+#customize-control-smooth_blog_header_setting .customize-inside-control-row,
+#customize-control-smooth_blog_menu_setting .customize-inside-control-row,
+#customize-control-smooth_blog_testinomial_setting .customize-inside-control-row,
+#customize-control-smooth_blog_reserve_setting .customize-inside-control-row,
+#customize-control-smooth_blog_cta_setting .customize-inside-control-row,
+#customize-control-smooth_blog_instagram_setting .customize-inside-control-row {
+    float: left;
+    width: 35%;
+    background: #1a84e0;
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+}
+
+#customize-control-smooth_blog_slider_setting .customize-inside-control-row:hover,
+#customize-control-smooth_blog_about_setting .customize-inside-control-row:hover,
+#customize-control-smooth_blog_blog_setting .customize-inside-control-row:hover,
+#customize-control-smooth_blog_featured_setting .customize-inside-control-row:hover,
+#customize-control-smooth_blog_masonary_setting .customize-inside-control-row:hover,
+#customize-control-smooth_blog_related_setting .customize-inside-control-row:hover,
+#customize-control-smooth_blog_video_setting .customize-inside-control-row:hover,
+#customize-control-smooth_blog_service_setting .customize-inside-control-row:hover,
+#customize-control-smooth_blog_header_setting .customize-inside-control-row:hover,
+#customize-control-smooth_blog_menu_setting .customize-inside-control-row,
+#customize-control-smooth_blog_testinomial_setting .customize-inside-control-row:hover,
+#customize-control-smooth_blog_reserve_setting .customize-inside-control-row:hover,
+#customize-control-smooth_blog_cta_setting .customize-inside-control-row:hover,
+#customize-control-smooth_blog_instagram_setting .customize-inside-control-row:hover {
+    float: left;
+    width: 35%;
+    background: #0071a1;
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+}
+
+#customize-control-smooth_blog_slider_setting input,
+#customize-control-smooth_blog_about_setting input,
+#customize-control-smooth_blog_blog_setting input,
+#customize-control-smooth_blog_featured_setting input,
+#customize-control-smooth_blog_masonary_setting input,
+#customize-control-smooth_blog_related_setting input,
+#customize-control-smooth_blog_video_setting input,
+#customize-control-smooth_blog_service_setting input,
+#customize-control-smooth_blog_header_setting input,
+#customize-control-smooth_blog_menu_setting input,
+#customize-control-smooth_blog_reserve_setting input,
+#customize-control-smooth_blog_testinomial_setting input,
+#customize-control-smooth_blog_cta_setting input,
+#customize-control-smooth_blog_instagram_setting input
+{
+    display:none;
+}
+

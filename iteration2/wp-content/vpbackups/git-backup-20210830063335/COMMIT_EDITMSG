@@ -1,0 +1,6 @@
+[VP] Deactivated VersionPress
+
+VP-Action: versionpress/deactivate
+
+X-VP-Version: 4.0-beta2
+X-VP-Environment: default
