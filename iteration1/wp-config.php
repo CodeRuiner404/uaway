@@ -1,4 +1,8 @@
 <?php
+/** Enable W3 Total Cache */
+define('WP_CACHE', true); // Added by W3 Total Cache
+
+
 
 /**
  * The base configuration for WordPress
@@ -79,7 +83,7 @@ define('WP_PLUGIN_DIR', __DIR__ . "/wp-content/plugins");
 define('WP_LANG_DIR', __DIR__ . "/wp-content/languages"); 
 define('WP_HOME', 'https://uaway.com.au/iteration1'); 
 define('WP_SITEURL', 'https://uaway.com.au/iteration1'); 
-define('WP_CACHE', false); 
+ 
 define('WP_ENVIRONMENT_TYPE', 'staging'); 
 if ( ! defined( 'ABSPATH' ) ) {
     define('ABSPATH', dirname(__FILE__) . '/');

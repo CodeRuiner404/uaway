@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UV index quiz</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="game.css">
+</head>
+<body>
+<div class="container">
+    <div id="game" class="justify-center flex-column">
+        <div id="hud">
+            <div id="hud-item">
+                <p id="progressText" class="hud-prefix">
+                    Question
+                </p>
+                <div id="progressBar">
+                    <div id="progressBarFull">   </div>
+                </div>
+            </div>
+            <div class="hud-item">
+                <div class="hud-prefix">
+                    Score
+                </div>
+                <h1 class="hud-main-text" id="score">
+                    0
+                </h1>
+            </div>
+        </div>
+        <h2 id="question">What is the answser of this question</h2>
+        <div class="choice-container">
+            <p class="choice-prefix">A</p>
+            <p class="choice-text" data-number="1">Choice A</p>
+        </div>
+        <div class="choice-container">
+            <p class="choice-prefix">B</p>
+            <p class="choice-text" data-number="2">Choice B</p>
+        </div>
+        <div class="choice-container">
+            <p class="choice-prefix">C</p>
+            <p class="choice-text" data-number="3">Choice C</p>
+        </div>
+        <div class="choice-container">
+            <p class="choice-prefix">D</p>
+            <p class="choice-text" data-number="4">Choice D</p>
+        </div>
+        <div class="explain-container" id="exContainer">
+            <p class="explain-prefix" id="exPre"></p>
+            <div class="explain-text">
+                <p id="exContent"></p></br>
+                <p>Check out the <a id="exHref" href="" target="_blank" rel="noopener noreferrer">Reference</a> for detailed explanation.</p>
+            </div>
+        </div>
+        <div class="next-container" id="ntContainer">
+            <p class="next-text" id="que-next">Next !</p>
+        </div>
+    </div>
+</div>
+<!-- Result Box -->
+<div class="result_box">
+    <div class="icon">
+        <i class="fas fa-crown"></i>
+    </div>
+    <div class="complete_text">You've completed the Quiz!</div>
+    <div class="score_text">
+        <!-- Here I've inserted Score Result from JavaScript -->
+        <!--            <p style="font-size: 30px;color: crimson;margin-bottom: 5px"></p>-->
+    </div>
+    <div class="comment-text"></div>
+    <div class="buttons">
+        <button class="restart">Replay Quiz</button>
+        <button class="quit">Quit Quiz</button>
+    </div>
+</div>
+<script type="text/javascript">
+    const question = document.querySelector('#question');
+    const choices = Array.from(document.querySelectorAll('.choice-text'));
+    const progressText = document.querySelector('#progressText');
+    const scoreText = document.querySelector('#score');
+    const progressBarFull = document.querySelector('#progressBarFull');
+    const explainContainer= document.getElementById("exContainer");
+    const explainPre = document.getElementById("exPre");
+    const explain = document.getElementById("exContent");
+    const nextContainer=document.getElementById("ntContainer");
+    const contain = document.querySelector(".container");
+    const result_box = document.querySelector(".result_box");
+    const restart = document.querySelector(".restart");
+    const quit = document.querySelector(".quit");
+    const finalScore=document.querySelector(".score_text");
+    const commentText=document.querySelector(".comment-text");
+    const exHref = document.getElementById("exHref");
+
+    let currentQuestion={}
+    let accepingAnswer=true
+    let score=0
+    let questionCounter=0
+    let avaliableQuestions=[]
+
+
+    // CORE_POINTS 答对一题加的分数
+    const SCORE_POINTS=20
+    const MAX_QUESTIONS=5
+    let questionsIndex=0
+
+    var ajax = new XMLHttpRequest();
+    var method="GET";
+    var url="games.php";
+    let questions=[];
+    ajax.open(method,url,true);
+    ajax.send();
+    ajax.onreadystatechange=function(){
+        if(this.readyState==4&&this.status==200){
+            questions=JSON.parse(this.responseText);
+            startGame=()=>{
+
+                if(contain.style.visibility==="hidden"){
+                    scoreText.innerHTML=0
+                    contain.style.visibility="visible"
+                }
+                questionCounter=0
+                score=0
+                avaliableQuestions=[...questions]
+                console.log(avaliableQuestions)
+                getNewQuestion()
+            }
+
+            getNewQuestion=()=>{
+// 跳转到顶部
+                document.documentElement.scrollTop=0
+                document.body.scrollTop=0
+// if(avaliableQuestions.length===0||questionCounter>MAX_QUESTIONS){
+//     localStorage.setItem('mostRecentScore',score)
+//     return windows.location.assign('/end.html')
+//
+// }
+                questionCounter++
+                progressText.innerText=`Question ${questionCounter} of ${MAX_QUESTIONS}`
+                progressBarFull.style.width= `${(questionCounter/MAX_QUESTIONS)*100}%`
+
+                questionsIndex = Math.floor(Math.random()*avaliableQuestions.length)
+                currentQuestion=avaliableQuestions[questionsIndex]
+                question.innerText=currentQuestion.question
+                var ansTemp="Answer: "
+                switch(currentQuestion.answer){
+                    case "1":
+                        ansTemp+="A";
+                        break;
+                    case "2":
+                        ansTemp+="B";
+                        break;
+                    case "3":
+                        ansTemp+="C";
+                        break;
+                    case "4":
+                        ansTemp+="D";
+                        break;
+                    default:
+                        ansTemp+="NMD";
+                        break;
+                }
+                explainPre.innerHTML=ansTemp
+                explain.innerHTML=currentQuestion.detail
+                exHref.setAttribute('href',currentQuestion.link)
+
+                choices.forEach(choice=>{
+                    const number = choice.dataset['number']
+                    choice.innerHTML=currentQuestion['choice'+number]
+                })
+
+                avaliableQuestions.splice(questionsIndex,1)
+                accepingAnswer=true
+            }
+
+
+            choices.forEach(choice=>{
+                choice.addEventListener('click',e=>{
+                    if(!accepingAnswer)return
+                    accepingAnswer=false
+                    const selectedChoice=e.target
+                    const selectedAnswer = selectedChoice.dataset['number']
+
+                    let classToApply = selectedAnswer == currentQuestion.answer?'correct':'incorrect'
+
+                    if(classToApply==='correct'){
+                        incrementScore(SCORE_POINTS)
+                    }
+
+                    // 跳转到底部
+                    window.scrollTo(0,document.body.scrollHeight)
+                    selectedChoice.parentElement.classList.add(classToApply)
+                    explainContainer.style.visibility="visible"
+                    nextContainer.style.visibility="visible"
+
+                    nextContainer.onclick=()=>{
+                        selectedChoice.parentElement.classList.remove(classToApply)
+                        if(avaliableQuestions.length===0||questionCounter>MAX_QUESTIONS){
+                            //alert("game over")
+                            contain.style.visibility="hidden"
+                            explainContainer.style.visibility="hidden"
+                            nextContainer.style.visibility="hidden"
+                            result_box.classList.add("activeResult")
+                            finalScore.innerHTML = '<span>Final Score: <p style="font-size: 30px;color: crimson;margin-bottom: 5px">'+ score +'</p></span>'
+                            // switch(score){
+                            //     case 0:commentText.innerHTML='<h2>Loser</h2>';break;
+                            //     case 100:commentText.innerHTML='<h2 style="color:black">Loser!</h2>';break;
+                            //     case 200:commentText.innerHTML='<h2 style="color:black">Bad!</h2>';break;
+                            //     case 300:commentText.innerHTML='<h2 style="color:black">Good!</h2>';break;
+                            //     case 400:commentText.innerHTML='<h2 style="color:black">Amazing!</h2>';break;
+                            //     case 500:commentText.innerHTML='<h2 style="color:black">Godlike!</h2>';break;
+                            // }
+                            if(score<20){
+                                commentText.innerHTML='<h2>Loser</h2>';
+                            }else if(score<40){
+                                commentText.innerHTML='<h2 style="color:black">Bad!</h2>';
+                            }else if (score<60){
+                                commentText.innerHTML='<h2 style="color:black">Good!</h2>';
+                            }else if (score<80){
+                                commentText.innerHTML='<h2 style="color:black">Amazing!</h2>';
+                            }else if (score<100){
+                                commentText.innerHTML='<h2 style="color:black">Godlike!</h2>';
+                            }else{
+                                commentText.innerHTML='<h2 style="color:black">Jesus!</h2>';
+                            }
+
+                        }else{
+                            //selectedChoice.parentElement.classList.remove(classToApply)
+                            explainContainer.style.visibility="hidden"
+                            nextContainer.style.visibility="hidden"
+                            getNewQuestion()
+                        }
+
+                    }
+
+                })
+            })
+
+            incrementScore = num =>{
+                score +=num
+                scoreText.innerHTML=score
+            }
+            startGame()
+            restart.onclick=()=>{
+                result_box.classList.remove("activeResult")
+                startGame()
+
+            }
+            quit.onclick=()=>{
+                window.close()
+            }
+
+        }
+    }
+
+
+
+</script>
+
+</body>
+</html>

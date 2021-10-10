@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UV index quiz</title>
+    <link rel="stylesheet" href="game.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div id="game" class="justify-center flex-column">
+            <div id="hud">
+                <div id="hud-item">
+                    <p id="progressText" class="hud-prefix">
+                        Question
+                    </p>
+                    <div id="progressBar">
+                        <div id="progressBarFull">   </div>
+                    </div>
+                </div>
+                <div class="hud-item">
+                    <div class="hud-prefix">
+                        Score
+                    </div>
+                    <h1 class="hud-main-text" id="score">
+                        0
+                    </h1>
+                </div>
+            </div>
+            <h2 id="question">What is the answser of this question</h2>
+            <div class="choice-container">
+                <p class="choice-prefix">A</p>
+                <p class="choice-text" data-number="1">Choice A</p>
+            </div>
+            <div class="choice-container">
+                <p class="choice-prefix">B</p>
+                <p class="choice-text" data-number="2">Choice B</p>
+            </div>
+            <div class="choice-container">
+                <p class="choice-prefix">C</p>
+                <p class="choice-text" data-number="3">Choice C</p>
+            </div>
+            <div class="choice-container">
+                <p class="choice-prefix">D</p>
+                <p class="choice-text" data-number="4">Choice D</p>
+            </div>
+            <div class="explain-container" id="exContainer">
+                <p class="explain-prefix" id="exPre">Answer:</p>
+                <p class="explain-text" id="exContent"></p>
+            </div>
+            <div class="next-container" id="ntContainer"> 
+                <p class="next-text" id="que-next">Next !</p>
+            </div>
+        </div>
+    </div>
+    <!-- Result Box -->
+    <div class="result_box">
+        <div class="icon">
+            <i class="fas fa-crown"></i>
+        </div>
+        <div class="complete_text">You've completed the Quiz!</div>
+        <div class="score_text">
+            <!-- Here I've inserted Score Result from JavaScript -->
+<!--            <p style="font-size: 30px;color: crimson;margin-bottom: 5px"></p>-->
+        </div>
+        <div class="buttons">
+            <button class="restart">Replay Quiz</button>
+            <button class="quit">Quit Quiz</button>
+        </div>
+    </div>
+    <script src="game.js"></script>
+    
+</body>
+</html>
